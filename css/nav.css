@@ -1,0 +1,163 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+nav {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  z-index: 99989898;
+}
+
+.dropdown {
+  position: relative;
+  width: 60%;
+  top: 30px;
+  margin: 0 auto;
+  align-items: baseline;   /* * */
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+	list-style: none;
+}
+
+.dropdown > li {
+	float: left;
+	position: relative;
+}
+
+.dropdown > li:hover {
+  transform: scale(1.1);
+}
+
+.dropdown a {
+	text-decoration: none;
+	color:rgb(15, 10, 83);
+  font-size: 25px;
+  padding: 4px 8px;
+	display: block;
+  font-family: 'Short Stack', cursive;
+}
+
+.dropdown > li > ul {
+	position: absolute;
+	left: 0px;
+}
+
+
+.dropdown li:hover > ul {
+	display: block;
+	z-index: 5;
+  top: 40px;
+	opacity: 1;
+	
+}
+
+.dropdown li ul li:hover {
+	background:rgb(15, 10, 83) ;
+}
+
+.dropdown li ul li:hover a{
+	color: white;
+}
+
+
+
+ .dropdown ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 70%;
+	left: 0;
+  list-style: none;
+	opacity: 0;
+}
+
+.dropdown > li > ul a {
+  white-space: nowrap;
+}
+
+
+.dropdown > li > ul > li > a {
+		font-size: 20px;
+}
+
+.hamb {
+   display: none;
+}
+
+.showNav{
+  display: block;
+}
+
+
+
+/* media  @ */
+
+/* FOR IPHONS */
+@media only screen and (max-width: 768px) {
+
+	nav {
+  position: relative;
+
+  display: block;
+  border-radius: 20px;
+}
+ 
+nav h1 {
+	padding-top: 10px;
+}
+  
+	.dropdown {
+  position: relative;
+  display: flex;
+  width: 90%;
+	flex-direction: column;
+  align-self: center;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.dropdown > li:hover {
+  border-bottom: none;
+  /* background:rgb(15, 10, 83) ; */
+}
+
+.dropdown li:hover > ul {
+	display: block;
+	z-index: 5;
+  top: 0px;
+	padding-left: 80px;
+	opacity: 1;
+
+}
+
+ .dropdown > li > ul {
+    position: relative;
+    display: none;
+  }
+
+.dropdown > li:hover > ul {
+    position: relative;
+    display: block;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

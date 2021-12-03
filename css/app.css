@@ -1,0 +1,118 @@
+
+main {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ 
+}
+
+.container {
+  position: relative;
+  margin-top: 130px;
+  top: 130px; 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgtitle {
+  position: relative;
+  margin-top: 5rem;
+  width: 220px;
+  height: 220px;
+  border-bottom: 8px solid rgba(92, 30, 163, 0.781);
+  border-radius: 52%;
+  /* display: contents; */
+  overflow: hidden;
+}
+
+.heroImage {
+  width: 220px;
+}
+
+.texts {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.resume {
+  position: relative;
+  margin-top: 2rem;
+  left: -9px;
+}
+
+.resume a {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.resume a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 1.1rem;
+}
+ 
+.doubledown {
+  position: relative;
+  width: 5px;
+  height:  5px;
+  font-size: 17px;
+  margin: 5px;
+  animation: arrow 1s  infinite;
+}
+
+/* reponsive ***************/
+
+@keyframes arrow {
+  0% { transform: translateY(0); }
+
+  50% { transform: translateY(4px); }
+
+   0% { transform: translateY(0); }
+
+}
+
+@media (max-width: 570px) {
+
+  .container {
+    position: relative;
+    margin-top: 130px;
+    top: 70px; 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .imgtitle {
+    position: relative;
+    margin-top: 2rem;
+    width: 220px;
+    height: 220px;
+    /* display: contents; */
+    overflow: hidden;
+  }
+
+  .texts {
+    width: 280px;
+  }
+
+  .resume {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    left: -9px;
+  }
+}

@@ -1,0 +1,329 @@
+
+
+main {
+  position: relative;
+  top: 130px;
+  width: 100%;
+}
+
+ /* background image */
+.bgImage {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+}
+
+ /* BOX JERSEYS FETCH MODULE */
+/* .prevCarrer {        
+  position: relative;
+  width: 95%;
+  height: 600px;
+  left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  border-radius: 20px;
+} */
+
+  
+ .panelAwards  {
+   position: relative;
+   top: 30px;
+   width: 100%;
+   text-align: center;
+ }
+
+ .TeamTitle {
+   text-decoration: underline;
+ }
+
+
+ .TnMajster {
+   position: relative;
+   width: 40%;
+   top: 30px;
+   border-radius: 15px;
+   border: 5px solid rgb(207, 188, 17);
+ }
+
+ .AKcup {
+   position: relative;
+   top: -40px;
+   width: 50%;
+   /* border-bottom: 5px solid blue;
+   border-radius: 15px; */
+ }
+
+
+   /* DOTS */
+   .dots {
+     font-size: 7rem;
+     text-align: center;
+  }
+
+ .teamsaward {
+   position: relative;
+   width: 60%;
+   left: 20%;
+ }
+
+ .panelindividawards {
+  position: relative;
+  width: 100%; 
+ }
+
+ .IndividualTitle {
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ /*  first row */
+ .duklamedaile {
+  position: relative;
+  width: 50%;
+  left: -50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+ .medailImgs {
+   width: 140%;
+   
+ }
+ 
+ 
+  /* CERTIFICATE */
+   .onehalfrow {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+    
+   }
+
+   .certificateImage {
+     width: 600px;
+     box-shadow: 3px 3px 45px gray;
+     border-radius: 20px;
+   }
+
+   .linkFastScore {
+     position: relative;
+     top: 18px;
+     margin-left: 15px;
+     border: 1px solid rgb(4, 4, 165);
+     border-radius: 6px;
+     padding: 10px;
+     color: rgb(5, 5, 136);
+   }
+
+  /* SECOND ROW ALASKA GLASS AWARD */
+  .alaskaAwards {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+    
+    /* GLASS AWARDS */
+  .glassAwards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  /* BLUE PERFORMACE AWARD */
+
+  .perforBlueAward {
+    width: 400px;
+    transform: rotate(-0.6deg);
+    animation: flag 3s ease-in-out infinite;
+    padding: 10px;
+  }
+
+
+  .glassAwardsAlaska {
+    width: 200px;
+    height: auto;
+  }
+
+  .firstTeam, .sportmanShip, .performance {
+    width: 20%;
+  }
+
+  /* 3rd  ROW  BUUBLE-HEAD */
+  .thirdrow {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+
+   .bubble-head, .bubble-stats, .fun-fuct {
+     width: 40%;
+   }
+
+  /* prvy panel dresov */
+  .panel {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    left: 5%;
+    padding: 15px;
+  }
+ 
+
+.paneldresu {
+  width: 12rem;
+  height: 12rem;
+  margin: 20px;
+}
+
+
+.dres {
+  position: relative;
+  width: 12rem;
+}
+
+
+.logoteamu {
+  position: relative;
+  width: 3.2rem;
+  height: 3.2rem;
+  left: 37%;
+  z-index: 200;
+  top: -82%;
+  cursor: pointer;
+}
+
+ /* show stats and img */
+.modal {
+  position: fixed;
+  width: 60%;
+  height: 350px;
+  left: 20%;
+  top: 150px;
+  letter-spacing: 0.5px;
+  display: flex;
+  z-index: 99999;
+  background-color: white;
+  /* border: 2px solid blue; */
+  box-shadow: 5px 5px 25px gray;
+  border-radius: 18px;
+  padding: 15px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* .bgmodal {
+  position: fixed;
+  width: 58%;
+  height: 46%;
+  background-image: url('../imgs/modalbg.jpg');
+  background-size: cover;
+  opacity: .05;
+  border-radius: 15px;
+  
+} */
+
+
+/* close btn modal */
+.closebtn {
+  position: fixed;
+  left: 77%;
+  font-size: 2rem;
+}
+
+.showit {
+  visibility: visible;
+  z-index: 4545545454;
+}
+
+.textbox {
+  position: relative;
+  width: 48%;
+  margin: 2.5rem;
+  text-align: center;
+}
+
+.pictbox {
+  position: relative;
+  width: 48%;
+}
+ 
+
+
+
+ /* parent / for fetch*/
+.logo {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  top: 40px;
+  background-color: rgb(117, 32, 32);
+  margin: 1px;
+}
+
+ /* children with 100% height and width */
+.dress {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+
+.logoteams {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 35%;
+  z-index: 200;
+  top: -80%;
+  
+}
+
+/* PICTURES IN MODAL ******  */
+
+/*   LM, ZLIN, BRIDG, KOMETS */
+.ImgModal2 {
+  width: 400px;
+}
+
+.zaImg, .alaskaImg {
+  width: 300px;
+}
+
+.ZV, .abbotsImg, .StockImg {
+  width: 550px;
+}
+
+/*  SD, TULSA, RAPD, ORLD, UTAH, SHARK, SF, TN, PN, DUBN */
+.ImgModal {
+  width: 500px;
+}
+
+.totalstats {
+  position: relative;
+  left: 45%;
+  width: 200px;
+  background-color: blanchedalmond;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  top: 400px;
+}

@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/contact.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav>
+    <ul class="dropdown">
+      <li class="hamb"><a href="#"><i class="fas fa-bars home" onclick="toggleClass()"></i></a></li>
+
+      <li><a href="./intro.html"><i class="fas fa-home"></i></a></li>
+
+      <li><a href="/html/about.html">About</a></li>
+
+      <li><a href="/html/prevCarrer.html">Previous Career</a></li>
+
+
+      <li>
+        <a href="#">Projects</a>
+        <ul>
+
+          <li><a href="/projects/web.html">JS projects</a></li>
+          <li><a href="/projects/react.html">React projects</a></li>
+          <li><a href="/projects/game2d.html">2D games</a></li>
+          <li><a href="/projects/game3d.html">3D games</a></li>
+        </ul>
+      </li>
+
+
+      <li><a href="/html/contact.html">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <main>
+    <h2>Do you have a question?</h2>
+    <h3>Contact me !</h3>
+
+    <form method="POST" action="https://formspree.io/f/xrgjzvwy">
+      <fieldset>
+        <legend>Contact form</legend>
+        
+         <p>
+              <!--  name -->
+              <label for="first-name">First Name: </label>
+              <input type="text" name="first-name" id="first-name" placeholder="first name" required><br>
+              
+              <label for="last-name">Last Name: </label>
+              <input type="text" name="last-name" id="last-name" placeholder="last name" required>
+         </p><br><br>
+
+         <p>
+          <!--  phone -->
+          <label for="phone1">Phone: </label>
+          <input type="tel" name="phone1" id="phone1" placeholder="optional"><br>
+
+          <!--  email -->
+          <label for="email1">Email: </label>
+          <input type="tel" name="email1" id="email1" placeholder="email" required>
+         </p><br><br>
+
+          <p>
+            <!-- text -->
+            <label for="message">Comment</label><br>
+            <textarea name="message" id="message" cols="70" rows="10" placeholder=" text area"></textarea>
+          </p><br>
+      
+          <!-- submit -->
+          <button type="submit" class="btn">
+            Send In Form
+          </button>
+      
+          <button type="reset" class="btn">
+            Reset Form
+          </button>
+
+      </fieldset>
+
+
+    </form>
+  </main><br>
+
+  <footer>
+    <h2>Copyright &copy; 2021</h2>
+  </footer>
+
+</body>
+</html>

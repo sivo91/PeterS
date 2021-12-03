@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+} 
+
+ main {
+  position: relative;
+  top: 130px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.aboutText {
+  position: relative;
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 570px) {
+  .aboutText {
+    position: relative;
+    width: 300px;
+    top: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
