@@ -412,10 +412,11 @@ panel.innerHTML = jersy.map(function(item) {
  // DOCUMENT EVENT po natiahnuti dam even na logo
 document.addEventListener('readystatechange', (e) => {
  initApp()
+ e.preventDefault()
  
 })
  
-const initApp = (e) => {
+const initApp = () => {
  const logoT = document.querySelectorAll('.logoteamu')
  //console.log(logoT)
 

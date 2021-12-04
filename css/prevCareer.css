@@ -1,8 +1,7 @@
 
 
-main {
+.container {
   position: relative;
-  top: 130px;
   width: 100%;
 }
 

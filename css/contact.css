@@ -1,5 +1,6 @@
 
 
+
 * {
   padding: 0;
   margin: 0;
@@ -8,9 +9,15 @@
 
 main {
   position: relative;
-  width: 100%;
+  width: 100%!important;
+  height: 100%;
   margin-top: 150px;
   text-align: center;
+}
+
+main h2, main h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 form {
@@ -62,14 +69,74 @@ button {
 
 footer {
   position: relative;
-  top: 200px;
+  top: 50px;
   text-align: center;
 }
 
 
 
+/* FOR IPHONS */
+@media only screen and (max-width: 767px) {
+
+  main {
+    position: relative;
+    width: 100%!important;
+  }
+
+   form {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+  }
+
+  fieldset {
+    position: relative;
+    width: 95%;
+    padding: 0;
+ }
+
+ button {
+   margin-bottom: 20px;
+ }
+
+#first-name, #last-name, #phone1, #email1 {
+  padding: 3px
+}
+
+.message {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+}
+  
+
+}
 
 
+
+
+/* FOR IPAD */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+ 
+  form {
+    position: relative;
+    width: 90%;
+  }
+
+ fieldset {
+   padding: 0;
+ }
+
+ legend {
+   padding-top:5px ;
+ }
+
+ button {
+   margin-bottom: 20px;
+ }
+
+     
+}
 
 
 
