@@ -30,12 +30,16 @@ nav {
 }
 
 .dropdown > li:hover {
-  transform: scale(1.1);
-
+background-color: rgb(15, 10, 83);
+border-radius: 4px;
 }
 
 .dropdown > li:hover a {
-   color: whi;
+   color: white;
+}
+
+.dropdown > li:hover > ul> li > a {
+   color: rgb(15, 10, 83);
 }
 
 .dropdown a {
@@ -56,13 +60,14 @@ nav {
 .dropdown li:hover > ul {
 	display: block;
 	z-index: 5;
-  top: 40px;
+  top: 35px;
 	opacity: 1;
 	
 }
 
 .dropdown li ul li:hover {
 	background:rgb(15, 10, 83) ;
+  border-radius: 4px;
 }
 
 .dropdown li ul li:hover a{
@@ -92,12 +97,16 @@ nav {
 }
 
 .hamb {
-   display: none;
+  position: relative;
+  font-size: 27px;
+  top: 20px;
+  left: 40px;
+  list-style-type: none;
+  display: none;
 }
 
-.showNav{
-  display: block;
-}
+
+
 
 
 
@@ -108,8 +117,7 @@ nav {
 
 	nav {
   position: relative;
-
-  display: block;
+  top: -10px;
   border-radius: 20px;
 }
  
@@ -117,15 +125,30 @@ nav h1 {
 	padding-top: 10px;
 }
   
+
+
+.hamb {
+  position: absolute;
+  font-size: 27px;
+  top: 40px;
+  left: 300px;
+  list-style-type: none;
+  display: none;
+}
+
+
 	.dropdown {
   position: relative;
   display: flex;
   width: 90%;
+  top: 50px;
 	flex-direction: column;
   align-self: center;
 	list-style: none;
-	margin-right: 20px;
+	padding-left: 90px;
+  
 }
+
 
 .dropdown > li:hover {
   border-bottom: none;
@@ -151,6 +174,9 @@ nav h1 {
     display: block;
   }
 
+  .dropdown li:hover ul  li a{
+    color: white;
+  }
 
 }
 

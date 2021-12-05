@@ -14,9 +14,9 @@
   margin: 0 auto;
 }
 
-.aboutText {
+article {
   position: relative;
-  width: 350px;
+  width: 500px;
   text-align: center;
   margin: 0 auto;
   font-size: 20px;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 570px) {
-  .aboutText {
+  article {
     position: relative;
     width: 300px;
     top: 40px;

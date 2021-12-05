@@ -1,9 +1,16 @@
 
 
-.container {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
   position: relative;
   width: 100%;
   top: 150px;
+
 }
 
  /* background image */
@@ -49,7 +56,10 @@
    top: 30px;
    border-radius: 15px;
    border: 5px solid rgb(207, 188, 17);
+   box-shadow: 2px 2px 30px gold;
  }
+
+ 
 
  .AKcup {
    position: relative;
@@ -94,7 +104,6 @@
 
  .medailImgs {
    width: 140%;
-   
  }
  
  
@@ -123,7 +132,16 @@
      border-radius: 6px;
      padding: 10px;
      color: rgb(5, 5, 136);
+     text-decoration: none;
    }
+
+    .linkFastScore:hover {
+      background-color: blue;
+      color: white;
+    }
+
+
+    
 
   /* SECOND ROW ALASKA GLASS AWARD */
   .alaskaAwards {

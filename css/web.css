@@ -38,6 +38,13 @@ main > ul > li > a {
   outline: none;
 }
 
+main > ul > li > h6 {
+  position: relative;
+  left: 15px;
+  margin-top: 7px ;
+
+}
+
 @media only screen and (max-width: 768px) {
 
   main > ul {

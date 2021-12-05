@@ -376,22 +376,21 @@
 
 
  /* toggle */
- const homebtn = document.querySelector('.home')
 
- function toggleClass() {
-  const navbar = document.querySelector('.navbar')
-     navbar.classList.toggle('show')
- }
+/*  function toggleClass() {
+    var x = document.querySelector('.dropdown') 
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+ */
+ 
 
 
-function myFunction() {
-  let x = document.querySelector('.home')
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+
+
 
  //  SHOW DRESY
 
