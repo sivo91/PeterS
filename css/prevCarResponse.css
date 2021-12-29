@@ -348,4 +348,15 @@
    .dots {
      visibility: hidden;
    }
+
+   .jack {
+  position: relative;
+  top: -320px;
+  text-align: center;
+}
+
+.jack > img {
+  position: relative;
+  width: 360px;
+}
 }

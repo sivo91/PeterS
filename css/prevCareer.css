@@ -347,3 +347,10 @@ main {
   font-family: Georgia, 'Times New Roman', Times, serif;
   top: 400px;
 }
+
+
+.jack {
+  position: relative;
+  text-align: center;
+}
+
