@@ -188,6 +188,12 @@
     left: -15px;
   }
 
+   .recordvideo {
+     position: relative;
+     width: 320px;
+     left: -50px;
+   }
+
   .secondrow {
     position: relative;
     top: -100px;
