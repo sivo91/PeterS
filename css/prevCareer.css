@@ -196,6 +196,10 @@ main {
      width: 40%;
    }
 
+   .fun-fact > p {
+    width: 250px;
+  }
+
   /* prvy panel dresov */
   .panel {
     position: relative;
