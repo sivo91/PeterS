@@ -140,6 +140,12 @@
   width: 300px!important;
   left: -20px;
  }
+
+ .video {
+    position: relative;
+    width: 600px;
+ }
+
 }
 
 
