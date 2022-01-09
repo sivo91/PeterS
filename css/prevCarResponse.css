@@ -30,6 +30,7 @@
 
   .linkFastScore {
     position: relative;
+    left: 0px!important;
     border: 1px solid rgb(4, 4, 165);
     border-radius: 6px;
     padding: 6px;
@@ -147,9 +148,11 @@
 
  .video {
     position: relative;
-    width: 500px;
+    width: 600px;
     height: 300px;
  }
+
+
 
 }
 
@@ -378,6 +381,15 @@
     
  }
 
+ .linkFastScore {
+    position: relative;
+    left: 0px!important;
+    border: 1px solid rgb(4, 4, 165);
+    border-radius: 6px;
+    padding: 6px;
+    color: rgb(5, 5, 136);
+  }
+
 }
 
 
@@ -388,4 +400,6 @@
     width: 500px;
     height: 300px;
  }
+
+
 }
