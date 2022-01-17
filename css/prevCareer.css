@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overscroll-behavior-y: none ;
+}
+
 main {
   position: relative;
   width: 100%;
@@ -358,3 +362,13 @@ main {
   text-align: center;
 }
 
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 9px;
+  background: linear-gradient(to right, blue, rgb(1, 1, 94));
+  z-index: 99999999;
+  transition: width 0.1s ease-out ;
+}
