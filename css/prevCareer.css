@@ -14,7 +14,7 @@ main {
   position: relative;
   width: 100%;
   top: 150px;
-
+  
 }
 
  /* background image */
@@ -63,7 +63,7 @@ main {
    box-shadow: 2px 2px 30px gold;
  }
 
- 
+
 
  .AKcup {
    position: relative;
@@ -132,7 +132,7 @@ main {
 
    .linkFastScore {
      position: relative;
-     left: -300px;
+     left: -250px;
      top: 62px;
      border: 1px solid rgb(4, 4, 165);
      border-radius: 6px;
@@ -371,4 +371,27 @@ main {
   background: linear-gradient(to right, blue, rgb(1, 1, 94));
   z-index: 99999999;
   transition: width 0.1s ease-out ;
+}
+
+.passing_box, .passing_box1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.passing, .passing1 {
+  position: relative;
+  width: 370px;
+}
+
+
+#svg, #svg1 {
+  position: relative;
+  width: 205px;
+}
+
+.video {
+  position: relative;
+  left: 50px;
 }

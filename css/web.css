@@ -43,6 +43,24 @@ main > ul > li > h6 {
   margin-top: 7px;
 }
 
+.passing_box, .passing_box1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.passing, .passing1 {
+  position: relative;
+  width: 370px;
+}
+
+
+#svg, #svg1 {
+  position: relative;
+  width: 205px;
+}
+
 @media only screen and (max-width: 768px) {
   main > ul {
     position: relative;
