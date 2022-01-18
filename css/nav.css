@@ -105,10 +105,7 @@ border-radius: 4px;
 .hamb {
   position: relative;
   font-size: 27px;
-  top: 20px;
-  left: 40px;
-  list-style-type: none;
-  display: none;
+  display: none!important;
 }
 
 
@@ -123,8 +120,17 @@ border-radius: 4px;
 
 	nav {
   position: relative;
-  top: -10px;
+  top: -220px;
   border-radius: 20px;
+}
+
+
+.hamb {
+  position: absolute!important;
+  top: 210px!important;
+  left: 30px!important;
+  display: block!important;
+  z-index: 999999;
 }
  
 nav h1 {

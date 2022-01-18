@@ -377,15 +377,18 @@
 
  /* toggle */
 
-/*  function toggleClass() {
-    var x = document.querySelector('.dropdown') 
-      if (x.style.display === "none") {
-        x.style.display = "block";
+ function toggleClass() {
+    var x = document.querySelector('.hamb')
+    let nav = document.querySelector('nav')
+
+      if (x) {
+       nav.style.top = '-10px'
+       x.style.visibility = 'hidden'
       } else {
-        x.style.display = "none";
+        nav.style.top = '-220px'
       }
     }
- */
+
  
 
 
