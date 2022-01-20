@@ -14,7 +14,7 @@
         id:2
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/redDress.png",
         imagelogo: "../logos/povazska.png",
         id:3
       },
@@ -24,12 +24,12 @@
         id:4
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/redDress.png",
         imagelogo: "../logos/tn.png",
         id:5
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/greenDress.png",
         imagelogo: "../logos/za.png",
         id:6
       },
@@ -44,12 +44,12 @@
         id:8
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/redDress.png",
         imagelogo: "../logos/sf.png",
         id:9
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/sharkDress.png",
         imagelogo: "../logos/shark.png",
         id:10
       },
@@ -74,22 +74,22 @@
         id:14
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/purpleDress.png",
         imagelogo: "../logos/ORLANDO_SOLAR_BEARS.png",
         id:15
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/greenDress.png",
         imagelogo: "../logos/utah.png",
         id:16
       },
       {
-        imagejersy: "../logos/dress.png",
+        imagejersy: "../logos/redDress.png",
         imagelogo: "../logos/komets.png",
         id:17
       },
       {
-      imagejersy: "../logos/dress.png",
+      imagejersy: "../logos/redDress.png",
       imagelogo: "../logos/rapid.png",
       id:18
       },
@@ -390,6 +390,7 @@
     }
 
  
+   
 
 
 
