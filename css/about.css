@@ -23,7 +23,13 @@ article {
   letter-spacing: 1px;
 }
 
-
+@media screen and (max-width:450px) {
+  
+  main {
+    position: relative;
+    top: 0px!important;
+  }
+}
 
 
 
