@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+
+
 main {
   position: relative;
   width: 100%;
@@ -25,6 +27,7 @@ form {
   width: 50%;
   margin: 30px auto;
   font-size: 20px;
+  
 }
 
 fieldset {
