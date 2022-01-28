@@ -1,6 +1,6 @@
 
 
-const play = document.querySelector('.passing');
+/* const play = document.querySelector('.passing');
 
         const svgContainer = document.getElementById('svg');
         const animItem = bodymovin.loadAnimation({
@@ -48,7 +48,7 @@ const play = document.querySelector('.passing');
 
 
 
-
+ */
 
 
 

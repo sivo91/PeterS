@@ -395,3 +395,22 @@ main {
   position: relative;
   left: 50px;
 }
+
+
+.btn-container {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+.page-btn {
+  position: relative;
+  background-color: blue;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.active-btn {
+
+}

@@ -104,6 +104,8 @@
         id:20
       },
     ] 
+
+    //console.log(jersy)
       
       // data arr obj stats
     const datastats = [
@@ -390,9 +392,25 @@
     }
 
  
-   
+  /*  const jersyArr = Array.from({length:20}, (_, index) => {
+     return index
+   })
 
+  //console.log(jersyArr)
+  const itemsPerPage = 5
+  const pages = jersyArr.length / itemsPerPage
+  //console.log(pages)
+ 
+  const newItems = Array.from({length:pages}, (_, index) => {
+    const start = index * itemsPerPage
+    const tempItems = jersyArr.slice(start, start + itemsPerPage)
+    return tempItems
+  }) */
 
+  //console.log(newItems)
+
+ 
+  
 
 
 
@@ -400,37 +418,43 @@
 
  const modal = document.querySelector('.modal')
  const panel = document.querySelector('.panel')
+ const btnContainer = document.querySelector('.btn-container')
  
-   // GET DRESS & LOGO
-panel.innerHTML = jersy.map(function(item) {
- return `
- <div class="paneldresu"> 
-   <!--  DRESS A LOGO -->
-     <img src="${item.imagejersy}"  class="dres" alt="dres">
-     <img src="${item.imagelogo}"  class="logoteamu" data-id="${item.id}" alt="orlando">
-</div>
- `
-}).join('')
 
  // DOCUMENT EVENT po natiahnuti dam even na logo
-document.addEventListener('readystatechange', (e) => {
- initApp()
- e.preventDefault()
+
  
-})
+let pages = []
+let index = 0
+
+const setupUI = () => {
+   display(pages[index])
+   displayButtons(btnContainer, pages, index)
+   showModal()
+}
+
+
+const initApp = async () => {
+
+ pages = paginate(jersy)
+ setupUI()
  
-const initApp = () => {
- const logoT = document.querySelectorAll('.logoteamu')
+
+}
+
+
+const showModal = () => {
+   const logoT = document.querySelectorAll('.logoteamu')
  //console.log(logoT)
 
    // select single logo
-   logoT.forEach(function(item) {
+   logoT.forEach(item => {
    //console.log(item)
    item.addEventListener('click', (e) => {
     // trafi cisielko
      //console.log(e.currentTarget.dataset.id)
      const logoID = e.currentTarget.dataset.id
-
+     //console.log(logoID)
 
      // SHOW MODAL & STATS & FOTOS
      modal.innerHTML = datastats.map(function(item) {
@@ -455,9 +479,10 @@ const initApp = () => {
         </div>
         <i class="far fa-times-circle closebtn"></i>
      `} 
-   }).join('') // bez join commas !!!!
+   }).join('') 
+   
 
-
+    
   //  CLOSE MODAL 
  const closeModal = document.querySelectorAll('.closebtn')
 
@@ -469,19 +494,135 @@ const initApp = () => {
           modal.classList.remove('showit')
           e.preventDefault()
           })
+          setupUI()
         }) 
-
 
     })
   })
 }
 
 
+btnContainer.addEventListener('click',  function (e) {
+     if(e.target.classList.contains('btn-container')) return
+     if(e.target.classList.contains('page-btn')) {
+       //console.log(e.target.dataset.index)
+       index = parseInt(e.target.dataset.index)
+       setupUI()
+     }
+
+     if (e.target.classList.contains('next-btn')) {
+       index++
+       if(index > pages.length - 1) {
+         index = 0
+       }
+       setupUI()
+     }
+
+     if (e.target.classList.contains('prev-btn')) {
+       index--
+       if(index < 0) {
+         index = pages.length - 1
+       }
+       setupUI()
+     }
+     
+ })
+
+
+const display = (jersy) => {
+
+  const newFollowers = jersy.map( item => {
+  return `
+  <div class="paneldresu"> 
+    <!--  DRESS A LOGO -->
+      <img src="${item.imagejersy}"  class="dres" alt="dres">
+      <img src="${item.imagelogo}"  class="logoteamu" data-id="${item.id}" alt="orlando">
+  </div>
+  `
+  }).join('') 
+  //console.log(newFollowers)
+  panel.innerHTML = newFollowers
+}
+
+
+const paginate = (jersy) => {
+  const itemsPerPage = 6
+  const numberOfPages = jersy.length / itemsPerPage
+  //console.log(numberOfPages)
+  const newFollowers = Array.from({length:numberOfPages}, (_, index) => {
+    const start = index * itemsPerPage
+    return jersy.slice(start, start + itemsPerPage)
+  })
+  return newFollowers
+}
+
+const displayButtons = (btnContainer, pages, activeIndex) => {
+  //console.log(btnContainer, pages, activeIndex)
+  let btns = pages.map((_, pageIndex) => {
+    return `<button class="page-btn ${ activeIndex === pageIndex ? 'active-btn' : 'null' }" data-index="${pageIndex}">${pageIndex + 1}</button>`
+  })
+  btns.push('<button class="next-btn">></button>')
+  btns.unshift('<button class="prev-btn"><</button>')
+  btnContainer.innerHTML = btns.join('')
+}
+
+
+
+
+ //MUSI BYT POD INIT FUNCTION 
+window.addEventListener('load', initApp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    //   PROJECTS SECTION  ******************
     
   /*  FILTER PROJECT */
-  const result = document.getElementById('result')
+/*   const result = document.getElementById('result')
   const filter = document.getElementById('filter')
   const listItems = []
 
@@ -492,7 +633,7 @@ const initApp = () => {
 
     const data = await res.json()
     console.log(data)
-  }
+  } */
 
    
      
