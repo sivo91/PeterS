@@ -32,8 +32,8 @@ nav {
 .dropdown > li:hover {
 background-color: rgb(15, 10, 83);
 border-radius: 4px;
- outline: 2px solid rgb(15, 10, 83);
-  outline-offset: 3px;
+/*  outline: 2px solid rgb(15, 10, 83);
+  outline-offset: 3px; */
 }
 
 .dropdown > li:hover a {

@@ -302,9 +302,8 @@
 
   .bgmodal {
     position: fixed;
-    top: 145px;
-  
-    width: 290px!important;
+    top: 50px;
+    width: 100%;
     height: 430px!important;
     background-image: url('../hokejfoto/modalBG.png');
     background-size: cover;

@@ -391,27 +391,6 @@
       }
     }
 
- 
-  /*  const jersyArr = Array.from({length:20}, (_, index) => {
-     return index
-   })
-
-  //console.log(jersyArr)
-  const itemsPerPage = 5
-  const pages = jersyArr.length / itemsPerPage
-  //console.log(pages)
- 
-  const newItems = Array.from({length:pages}, (_, index) => {
-    const start = index * itemsPerPage
-    const tempItems = jersyArr.slice(start, start + itemsPerPage)
-    return tempItems
-  }) */
-
-  //console.log(newItems)
-
- 
-  
-
 
 
  //  SHOW DRESY
@@ -431,14 +410,18 @@ const setupUI = () => {
    display(pages[index])
    displayButtons(btnContainer, pages, index)
    showModal()
+   
 }
 
+
+let screenSize = document.getElementById('windowSize')
 
 const initApp = async () => {
 
  pages = paginate(jersy)
  setupUI()
- 
+ resizing()
+ //console.log(screen.width)
 
 }
 
@@ -567,86 +550,18 @@ const displayButtons = (btnContainer, pages, activeIndex) => {
 }
 
 
+const resizing = () => {
+  console.log(screen.width)
+  /* if(screen.width < 769 ) {
+    //console.log('ipad size')
+   document.querySelector('.btn-container').style.width = '90%'
+   
+  } */
+}
 
 
  //MUSI BYT POD INIT FUNCTION 
 window.addEventListener('load', initApp)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   //   PROJECTS SECTION  ******************
-    
-  /*  FILTER PROJECT */
-/*   const result = document.getElementById('result')
-  const filter = document.getElementById('filter')
-  const listItems = []
-
-  gatData()
-
-  async function gatData () {
-    const res = await fetch('https://randomuser.me/api?results=50')
-
-    const data = await res.json()
-    console.log(data)
-  } */
-
-   
-     
-    
-   
-    
-
-
-
-
-
-
-
 
 
 
