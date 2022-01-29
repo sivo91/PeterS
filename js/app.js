@@ -529,7 +529,7 @@ const display = (jersy) => {
 
 
 const paginate = (jersy) => {
-  const itemsPerPage = 6
+  const itemsPerPage = 10
   const numberOfPages = jersy.length / itemsPerPage
   //console.log(numberOfPages)
   const newFollowers = Array.from({length:numberOfPages}, (_, index) => {

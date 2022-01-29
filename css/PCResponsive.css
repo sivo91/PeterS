@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,19 +5,18 @@
 }
 
 /*  large */
-@media screen and (min-width:767px) and (max-width:993px) {
-
-    .medail-Box {
+@media screen and (min-width: 767px) and (max-width: 993px) {
+  .medail-Box {
     position: relative;
     width: 100%;
-    top: 60px!important;
+    top: 60px !important;
     padding: 5px;
   }
 
   .panel {
     position: relative;
-    width: 120%!important;
-     left: -20px;
+    width: 120% !important;
+    left: -20px;
   }
 
   .btn-container {
@@ -27,190 +24,162 @@
   }
 }
 
+/*  for ipad */
+@media screen and (max-width: 768px) {
+  .panel {
+    position: relative;
+    width: 150% !important;
+    left: -80px;
+    height: 500px !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 2px;
+    z-index: 777;
+  }
 
- /*  for ipad */
-@media screen and  (max-width:768px) {
+  .btn-container {
+    position: relative;
+    top: 100px !important;
 
-   .panel {
-     position: relative;
-     width: 150%!important;
-     left: -80px;
-     height: 500px!important;
-     display: flex;
-     flex-wrap: wrap;
-     padding: 2px;
-     margin: 2px;
-     z-index: 777;
-   }
+    margin-bottom: 130px !important;
+    width: 90%;
+    z-index: 888887;
+  }
 
+  .medail-Box {
+    position: relative;
+    width: 100%;
+    top: 90px !important;
+    padding: 5px;
+  }
 
+  .btn-read-more {
+    position: relative;
+    left: 32%;
+    padding: 6px 15px;
+    margin: 10px;
+  }
 
- 
-   .btn-container {
-     position: relative;
-     top: 100px!important;
-     
-     margin-bottom: 130px!important;
-     width: 90%;
-     z-index: 888887;
-   }
+  .modal {
+    width: 80%;
+    left: 10%;
+    transform: scale(0.5);
+  }
 
-   .medail-Box {
-  position: relative;
-  width: 100%;
-  top: 90px!important;
-  padding: 5px;
+  .closebtn {
+    position: fixed;
+    left: 5%;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .textbox {
+    transform: scale(0.7);
+  }
+
+  h5,
+  h6 {
+    transform: scale(0.8);
+  }
 }
 
-.btn-read-more {
-  position: relative;
-  left: 32%;
-  padding: 6px 15px;
-  margin: 10px;
-}
+/*  for iphone */
+@media screen and (max-width: 420px) {
+  .title-h2 {
+    position: relative;
+    text-align: center;
+  }
 
-.modal {
-  width: 80%;
-  left: 10%;
-  transform: scale(0.5);
-}
+  main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
 
-.closebtn {
-  position: fixed;
-  left: 5%;
-  font-size: 2rem;
-  cursor: pointer;
-}
+  .middle-box {
+    position: relative;
+    width: 100% !important;
+    overflow: hidden;
+    top: -1900px !important;
+    width: 60%;
+    padding: 0 3px;
+  }
 
-.textbox {
-  transform: scale(0.7);
-}
+  .stocktonBox {
+    display: flex;
+    flex-direction: column;
+  }
 
-h5,h6 {
-  transform: scale(0.8);
-}
+  .stocktonText {
+    text-align: center;
+  }
 
-}
+  .left-aside {
+    position: relative;
+    top: 2200px;
+    width: 100%;
+    border-top-left-radius: 0px;
+  }
 
+  .passing {
+    margin-bottom: 100px;
+  }
 
+  .right-aside {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 2200px;
+    border-top-right-radius: 0px;
+    margin-bottom: 400px;
+  }
 
- /*  for iphone */
-@media screen and  (max-width:420px) { 
-   .title-h2 {
-     position: relative;
-     text-align: center;
-   }
+  .showit {
+    visibility: visible;
+    z-index: 4545545454;
+  }
 
-   main {
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     overflow: hidden;
-   }
+  .modal {
+    position: fixed;
+    width: 120%;
+    height: 510px;
+    left: -50px;
+    top: 150px;
+    letter-spacing: 0.5px;
+    display: flex;
+    z-index: 999999;
+    background-color: white;
+    /* border: 2px solid blue; */
+    box-shadow: 5px 5px 25px gray;
+    border-radius: 18px;
+    padding: 15px;
+    overflow: hidden;
+    transform: scale(0.7);
+  }
 
-   .middle-box {
-  position: relative;
-  width: 100%!important;
-  overflow: hidden;
-  top: -1900px!important;
-  width: 60%;
-  padding: 0 3px;
-}
-
-.stocktonBox {
-  display: flex;
-  flex-direction: column;
-}
-
-.stocktonText {
-  text-align: center;
-}
-
-
-
- .left-aside {
-   position: relative;
-   top: 2200px;
-   width: 100%;
-   border-top-left-radius: 0px;
- }
-
- .passing {
-   margin-bottom: 100px;
- }
-
- .right-aside {
-   position: relative;
-   top: 120px;
-   width: 100%;
-   height: 2200px;
-   border-top-right-radius: 0px;
-   margin-bottom: 400px;
- }
-
-
- .showit {
-  visibility: visible;
-  z-index: 4545545454;
-}
-
-.modal {
-  position: fixed;
-  width: 120%;
-  height: 510px;
-  left: -50px;
-  top: 150px;
-  letter-spacing: 0.5px;
-  display: flex;
-  z-index: 999999;
-  background-color: white;
-  /* border: 2px solid blue; */
-  box-shadow: 5px 5px 25px gray;
-  border-radius: 18px;
-  padding: 15px;
-  overflow: hidden;
-  transform: scale(.7);
- 
-
-}
-
-
- /* .bgmodal {
+  .bgmodal {
     position: fixed;
     top: 35px;
     left: 50px;
     width: 80%;
-    height: 430px!important;
-    background-image: url('../hokejfoto/modalBG.png');
+    height: 430px !important;
+    background-image: url("../hokejfoto/modalBG.png");
     background-size: cover;
     background-position: center;
-    opacity: .07;
-    z-index: 1; 
-  } */
-
-  .zaImg, .alaskaImg {
-    width: 250px!important;
-    left: -40px!important;
-    position: relative;
-    /* top: 5px; */
+    opacity: 0.07;
+    z-index: 1;
   }
 
+ 
 
- .ZV, .abbotsImg, .StockImg {
-    width: 250px!important;
-    position: relative;
-    top: 30px;
-    left: -40px;
-  }
-
-  
   .ImgModal {
-    width: 250px!important;
-    left: -40px;
+    width: 250px !important;
+    left: -50px;
     position: relative;
     top: 50px;
-   }
-
+  }
 
   .textbox {
     position: relative;
@@ -223,37 +192,14 @@ h5,h6 {
     width: 120%;
   }
 
+ 
   .ImgModal2 {
     position: relative;
-    left: -20px;
-    top: 40px;
+    top: -20px;
+    left: -90px;
+    transform: scale(0.8);
   }
 
-  .zaImg {
-    position: relative;
-    left: -40px!important;
   }
 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
