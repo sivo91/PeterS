@@ -1,10 +1,117 @@
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 
-@media screen and  (max-width: 993px) {
- 
-  body {
-    visibility: hidden;
+ /* Large devices (desktops, 992px and down) */
+@media screen and (max-width: 993px) {
+  
+  .medaileBox, .awardsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  .vid {
+    width: 200px;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .closebtn {
+    position: fixed;
+    left: 90%;
+  }
+
+  .panel {
+    min-height: 100vh;
+  }
+  
 }
+
+
+/*  Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) { 
+
+  .certifBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.certif-img {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.stocktonBox {
+  display: flex;
+  flex-direction: column;
+}
+
+figure, .stocktonText {
+  margin: 0 auto;
+}
+
+.stocktonText > h4 {
+  margin-top: 10px;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  
+}
+
+  
+ }
+
+
+ /* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) { 
+
+  .cups {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .panel {
+    width: 140%;
+    left: -40px;
+    
+  }
+
+  .modal {
+    position: fixed;
+    width: 120%;
+    left: -40px;
+
+  }
+
+  .closebtn {
+    position: fixed;
+    left: 10%;
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

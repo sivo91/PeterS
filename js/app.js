@@ -486,6 +486,7 @@ const showModal = () => {
 
 
 btnContainer.addEventListener('click',  function (e) {
+  
      if(e.target.classList.contains('btn-container')) return
      if(e.target.classList.contains('page-btn')) {
        //console.log(e.target.dataset.index)
