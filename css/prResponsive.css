@@ -5,6 +5,20 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1400px) {
+  .AK-logo-rotation {
+    position: relative;
+    top: 40px!important;
+  }
+ }
+
+ @media screen and (max-width: 1024px) {
+  .AK-logo-rotation {
+    position: relative;
+    top: 0px!important;
+  }
+ }
+
 
  /* Large devices (desktops, 992px and down) */
 @media screen and (max-width: 993px) {
@@ -99,6 +113,10 @@ figure, .stocktonText {
   .closebtn {
     position: fixed;
     left: 10%;
+  }
+
+  .curiozitka {
+     width: 350px;
   }
  }
 
