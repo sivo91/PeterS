@@ -1,8 +1,15 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Playfair+Display&family=Spectral+SC:ital,wght@1,200&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+  text-align: center;
+  font-family: "Inknut Antiqua", serif;
 }
  
 nav {
