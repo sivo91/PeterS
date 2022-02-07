@@ -1,33 +1,54 @@
 
 
+   // TRENCIN CUP IMG
 
-  const tn = document.querySelector('.trencin-cup')
-  const alaska = document.querySelector('.AK-CUP')
-  const champ = new Audio('../champ.mp3')
+    const tnCUP = document.getElementById('animation-tn-cup')
+    const champ = new Audio('../champ.mp3')
 
-   tn.addEventListener('mouseenter', ()=> { 
-            champ.currentTime = 7.8
+     tnCUP.addEventListener('mouseenter', ()=> {
+
+         const trencin = document.querySelector('.animation-tn-cup')
+         const tnAnim = bodymovin.loadAnimation({
+            wrapper: trencin,
+            animType: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'https://assets2.lottiefiles.com/packages/lf20_pkanqwys.json'
+        });
+
+        champ.currentTime = 7.8
             champ.play()
             champ.volume = 0.04
-        })
+     })   
 
-   alaska.addEventListener('mouseenter', ()=> { 
-            champ.currentTime = 7.8
-            champ.play()
-            champ.volume = 0.04
-        }) 
-
-    
-
-    tn.addEventListener('mouseleave', () => {
+     tnCUP.addEventListener('mouseleave', () => {
             champ.pause()
         })
 
-    alaska.addEventListener('mouseleave', () => {
+    // TRENCIN CUP IMG
+
+    const akCUP = document.getElementById('animation-ak-cup')
+   
+
+     akCUP.addEventListener('mouseenter', ()=> {
+
+         const trencin = document.querySelector('.animation-ak-cup')
+         const akAnim = bodymovin.loadAnimation({
+            wrapper: trencin,
+            animType: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'https://assets4.lottiefiles.com/packages/lf20_6fozbnga.json'
+        });
+
+        champ.currentTime = 7.8
+            champ.play()
+            champ.volume = 0.04
+     })   
+
+     akCUP.addEventListener('mouseleave', () => {
             champ.pause()
-        })
-
-
+        })    
 
 
 

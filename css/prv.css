@@ -82,7 +82,7 @@ h2,h3,h4 {
   z-index: 5;
 }
 
-.trencin-cup {
+/* .trencin-cup {
   position: relative;
   width: 100%;
   border-radius: 7px;
@@ -90,10 +90,75 @@ h2,h3,h4 {
 } 
 
 
-
 .trencin-cup:hover {
   cursor: pointer ;
+} */
+
+
+
+ /* DUKLA CUP */
+ .dukla-box-animation {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+   height: 280px;
+   border-radius: 7px;
+   overflow: hidden;
+ }
+
+ .dukla-box-animation:hover {
+  cursor: pointer;
 }
+
+ .animation-tn-cup {
+  position: relative;
+  width: 100%;
+  height: 120%;
+ }
+
+.img-tm-cup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+ 
+.trencin-cup-image {
+  position: relative;
+  width: 100%;
+}
+
+
+ /* ALASKA CUP */
+ .alaska-box-animation {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+   height: 280px;
+   border-radius: 7px;
+   overflow: hidden;
+ }
+
+ .alaska-box-animation:hover {
+  cursor: pointer;
+}
+
+ .animation-ak-cup {
+  position: relative;
+  width: 100%;
+  height: 120%;
+ }
+
+.img-tm-cup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+ 
+.alaska-cup-image {
+  position: relative;
+  width: 100%;
+}
+
 
 
 
@@ -515,4 +580,19 @@ h2,h3,h4 {
   color: white;
   border: none;
   transform: scale(1.1);
+}
+
+.total-stats {
+  position: absolute;
+  width: 125px;
+  padding: 4px 9px;
+  font-size: 40px;
+  left: 90.5%;
+  top: 13%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.total-stats:hover {
+  color: blue;
 }

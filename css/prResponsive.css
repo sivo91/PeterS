@@ -5,6 +5,7 @@
   margin: 0;
 }
 
+/*  xxl size */
 @media screen and (max-width: 1400px) {
   .AK-logo-rotation {
     position: relative;
@@ -12,6 +13,7 @@
   }
  }
 
+ /* xl size */
  @media screen and (max-width: 1024px) {
   .AK-logo-rotation {
     position: relative;
@@ -100,7 +102,6 @@ figure, .stocktonText {
   .panel {
     width: 140%;
     left: -40px;
-    
   }
 
   .modal {
@@ -117,6 +118,11 @@ figure, .stocktonText {
 
   .curiozitka {
      width: 350px;
+  }
+
+  #animation-tn-cup {
+    position: relative;
+    
   }
  }
 

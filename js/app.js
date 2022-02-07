@@ -406,6 +406,7 @@
 let pages = []
 let index = 0
 
+// outside lebo ju budem vkladat inde na obnovenie udajov
 const setupUI = () => {
    display(pages[index])
    displayButtons(btnContainer, pages, index)
@@ -417,12 +418,10 @@ const setupUI = () => {
 let screenSize = document.getElementById('windowSize')
 
 const initApp = async () => {
-
  pages = paginate(jersy)
  setupUI()
  resizing()
  //console.log(screen.width)
-
 }
 
 
@@ -431,7 +430,7 @@ const showModal = () => {
  //console.log(logoT)
 
    // select single logo
-   logoT.forEach(item => {
+   logoT.forEach(item => {   // should call logo instead item
    //console.log(item)
    item.addEventListener('click', (e) => {
     // trafi cisielko
@@ -440,11 +439,11 @@ const showModal = () => {
      //console.log(logoID)
 
      // SHOW MODAL & STATS & FOTOS
-     modal.innerHTML = datastats.map(function(item) {
+     modal.innerHTML = datastats.map( item => {
      if(logoID == item.id){
        modal.classList.add('showit') 
      return `
-     <div class="bgmodal"></div>
+        <div class="bgmodal"></div>
       
         <div class="textbox">
           <h2>Country: ${item.Country}</h2>
@@ -464,6 +463,8 @@ const showModal = () => {
      `} 
    }).join('') 
    
+       // for future add to line 466 for total stats
+      /* <i class="fas fa-poll total-stats"></i> */
 
     
   //  CLOSE MODAL 
@@ -509,7 +510,6 @@ btnContainer.addEventListener('click',  function (e) {
        }
        setupUI()
      }
-     
  })
 
 
@@ -518,7 +518,7 @@ const display = (jersy) => {
   const newFollowers = jersy.map( item => {
   return `
   <div class="paneldresu"> 
-    <!--  DRESS A LOGO -->
+    <!--  DRESS + LOGO -->
       <img src="${item.imagejersy}"  class="dres" alt="dres">
       <img src="${item.imagelogo}"  class="logoteamu" data-id="${item.id}" alt="orlando">
   </div>
@@ -539,6 +539,7 @@ const paginate = (jersy) => {
   })
   return newFollowers
 }
+
 
 const displayButtons = (btnContainer, pages, activeIndex) => {
   //console.log(btnContainer, pages, activeIndex)
@@ -569,58 +570,6 @@ window.addEventListener('load', initApp)
 
 
 
-
-
-//      contact  section ---------------
-
-/* const addMessage = (e) => {
-  e.preventDefault()
-
-   //name validate
-  const name = document.querySelector('.firstname');
-  const last = document.querySelector('.lastName')
-  const re1 = /^[a-zA-Z]{2,10}$/
-
-   // email validate
-   const email = document.getElementById('email')
-   const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
-   const relast = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
-   
-   if(!re1.test(name.value) || !re.test(email.value) || !relast.test(last.value)) {
-
-    // name
-    name.classList.add('is-invalid')
-    setTimeout(function(){
-      name.classList.remove('is-invalid');
-    },3000)
-
-    //last
-    last.classList.add('is-invalid')
-    setTimeout(function(){
-      last.classList.remove('is-invalid');
-    },3000)
-    
-    // email
-    email.classList.add('is-invalid')
-     setTimeout(function(){
-      email.classList.remove('is-invalid');
-    },3000)
-
-    email.value = ''
-    name.value = ''
-    last.value = ''
-
-  } 
-}
- */
-
-/* const clearInputs = () => {
-    document.querySelector('firstname').value = '',
-    document.querySelector('lastname').value = '',
-    document.getElementById('email').value = '',
-    document.querySelector('textArea').value = ''
-  }
- */
 
 
 
