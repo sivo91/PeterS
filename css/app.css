@@ -71,6 +71,14 @@ main {
   animation: arrow 1s  infinite;
 }
 
+.views {
+  visibility: hidden;
+}
+
+.eye:hover {
+  color: blue;
+}
+
 /* reponsive ***************/
 
 @keyframes arrow {

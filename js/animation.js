@@ -16,7 +16,7 @@
             path: 'https://assets2.lottiefiles.com/packages/lf20_pkanqwys.json'
         });
 
-        champ.currentTime = 7.8
+        //champ.currentTime = 7.8
             champ.play()
             champ.volume = 0.04
      })   
@@ -41,7 +41,7 @@
             path: 'https://assets4.lottiefiles.com/packages/lf20_6fozbnga.json'
         });
 
-        champ.currentTime = 7.8
+        //champ.currentTime = 7.8
             champ.play()
             champ.volume = 0.04
      })   

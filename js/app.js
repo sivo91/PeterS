@@ -421,6 +421,7 @@ const initApp = async () => {
  pages = paginate(jersy)
  setupUI()
  resizing()
+ 
  //console.log(screen.width)
 }
 
@@ -564,7 +565,6 @@ const resizing = () => {
 
  //MUSI BYT POD INIT FUNCTION 
 window.addEventListener('load', initApp)
-
 
 
 
