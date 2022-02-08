@@ -1,5 +1,5 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Playfair+Display&family=Spectral+SC:ital,wght@1,200&display=swap");
+
 
 * {
   padding: 0;
@@ -7,21 +7,21 @@
   box-sizing: border-box;
 }
 
-h1,h2,h3,h4 {
-  text-align: center;
-  font-family: "Inknut Antiqua", serif;
-}
  
 nav {
   position: absolute;
-  width: 100%;
+  width: 100%!important;
   top: 20px;
   z-index: 99989898;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inknut Antiqua", serif;
+}
+
 .dropdown {
   position: relative;
-  width: 60%;
+  width: 60%!important;
   top: 30px;
   margin: 0 auto;
   align-items: baseline;   /* * */
@@ -131,14 +131,14 @@ border-radius: 4px;
 
 	nav {
   position: relative;
-  top: -240px;
+  top: -300px;
   border-radius: 20px;
 }
 
 
 .hamb {
   position: absolute!important;
-  top: 210px!important;
+  top: 280px!important;
   left: 30px!important;
   display: block!important;
   z-index: 999999;
@@ -169,7 +169,10 @@ nav h1 {
   align-self: center;
 	list-style: none;
 	padding-left: 90px;
-  
+  background-color: aliceblue;
+  border-radius: 7px;
+  padding: 5px;
+  border: 2px solid rgb(15, 10, 83);
 }
 
 

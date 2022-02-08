@@ -12,12 +12,14 @@
 main {
   position: relative;
   width: 100%;
-  min-height: 100%;
-  margin-top: 150px;
+  height: 100%;
   text-align: center;
 }
 
-
+.contact-content {
+  position: relative;
+  top: 130px;
+}
 
 form {
   position: relative;
@@ -49,16 +51,32 @@ legend {
   border-radius: 4px;
 }
 
-#phone1, #email1 {
+#phone1 {
   position: relative;
   left: 15px;
 }
 
-button {
+#email1 {
+   position: relative;
+  left: 18px;
+}
+
+ .btn {
+  padding: 7px 13px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
   padding: 7px 13px;
   font-size: 20px;
   background-color: blue;
   color: white;
+  border: 1px solid white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -67,9 +85,10 @@ button {
 
 footer {
   position: relative;
-  margin-top: 50px;
+  margin-top: 90px;
   text-align: center;
 }
+
 
 
 
@@ -79,6 +98,12 @@ footer {
   main {
     position: relative;
     width: 100%!important;
+  }
+
+  .contact-content{
+    position: relative;
+    top: -110px;
+    height: 100vh;
   }
 
    form {
@@ -110,7 +135,19 @@ footer {
 
 }
 
+@media screen and (max-width:500px) {
+  #message, #email1, #phone1, #first-name, #last-name {
+    position: relative;
+    width: 85%;
+    margin: 0 5px;
+  }
 
+   #email1, #phone1 {
+     position: relative;
+     left: -2px;
+   }
+
+}
 
 
 /* FOR IPAD */

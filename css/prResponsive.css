@@ -11,6 +11,7 @@
     position: relative;
     top: 40px!important;
   }
+
  }
 
  /* xl size */
@@ -54,6 +55,11 @@
 /*  Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) { 
 
+  .content-prev-car {
+    position: relative;
+    top: -130px;
+  }
+
   .certifBox {
   position: relative;
   display: flex;
@@ -85,14 +91,25 @@ figure, .stocktonText {
   width: 100%;
   left: 0;
   
-}
+  }
 
-  
+  .panel {
+    position: relative;
+    min-height: 100vh!important;
+  }
+
+
  }
 
 
  /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) { 
+
+
+  .content-prev-car {
+    position: relative;
+    top: -130px;
+  }
 
   .cups {
     display: flex;

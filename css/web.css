@@ -8,29 +8,37 @@
 main {
   position: relative;
   width: 100%;
-  margin-top: 130px;
+  height: 100%;
+}
+
+.project-content {
+  position: relative;
+  top: 130px;
+  width: 100%;
   min-height: 100vh;
 }
 
-main h2 {
+.project-content h2 {
+ 
   text-align: center;
+ 
 }
 
-main > ul {
+.project-content > ul {
   position: relative;
   width: 60%;
   top: 50px;
   margin: 0 auto;
 }
 
-main > ul > li {
+.project-content > ul > li {
   font-size: 25px;
   list-style-type: none;
   padding: 8px 12px;
   margin-top: 15px;
 }
 
-main > ul > li > a {
+.project-content > ul > li > a {
   background-color: rgb(250, 236, 211);
   padding: 8px 12px;
   border-radius: 5px;
@@ -38,7 +46,7 @@ main > ul > li > a {
   outline: none;
 }
 
-main > ul > li > h6 {
+.project-content > ul > li > h6 {
   position: relative;
   left: 15px;
   margin-top: 7px;
@@ -63,10 +71,28 @@ main > ul > li > h6 {
 }
 
 @media only screen and (max-width: 768px) {
-  main > ul {
-    position: relative;
-    width: 90%;
-  }
 
   
+
+  .project-content  {
+    position: relative;
+    top: -120px;
+    width: 100%!important;
+  }
+
+  .ul {
+    position: relative;
+    width: 95%!important;
+    left: 2.5%;
+    padding: 0;
+    transform: scale(0.8);
+  }
+
+  .red {
+    color: red;
+  }
+ 
+  .schovaj-pre-fon {
+    display: none;
+  }
 }
