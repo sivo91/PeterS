@@ -71,9 +71,9 @@ main {
   animation: arrow 1s  infinite;
 }
 
-.views {
+/* .views {
   visibility: hidden;
-}
+} */
 
 .eye:hover {
   color: blue;
