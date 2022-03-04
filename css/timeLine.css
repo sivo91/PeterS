@@ -141,4 +141,8 @@ a {
        position: relative;
        left: -60px;
      }
+
+     #dates .selected {
+       font-size: 30px;
+     }
 }
