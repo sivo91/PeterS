@@ -5,7 +5,7 @@
 
 
 a {
-  color: #1f01a1;
+   color: #1f01a1;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -23,25 +23,25 @@ a {
 
   #timeline {
     width: 800px;
-    height: 360px;
+    height: 350px;
     overflow: hidden;
     margin: 100px auto;
     position: relative;
-   
+    background: url('../timeline/dot.jpg') left 45px repeat-x;
   }
     #dates {
-      width: 60%;
+      width: 800px;
       height: 60px;
       overflow: hidden;
-      
     }
       #dates li {
         list-style: none;
         float: left;
         width: 100px;
         height: 50px;
-        font-size: 24px;
-        text-align: center;   
+        font-size: 22px;
+        text-align: center;
+        background: url('../timeLine/dotbig.png') center bottom no-repeat;
       }
         #dates a {
           line-height: 38px;
@@ -51,7 +51,7 @@ a {
               font-size: 38px;
               font-weight: 700;
               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              text-shadow: rgb(30, 199, 250) 1px 1px 2px;
+              text-shadow: rgb(30, 199, 250) 1px 1px 1px;
         }
     
     #issues {
@@ -69,7 +69,6 @@ a {
           -webkit-transform: scale(1.1,1.1);
           transform: scale(1.1,1.1);
         }
-
         #issues li img {
           border-radius: 15px;
           float: left;
@@ -80,7 +79,6 @@ a {
           -webkit-transform: scale(0.7,0.7);
           transform: scale(0.7,0.7);
         }
-        
         #issues li h1 {
           color: #1206c2;
           font-size: 48px;
@@ -95,10 +93,9 @@ a {
           font-family: 'Times New Roman', Times, serif;
           color: rgb(22, 5, 70);
           text-shadow: rgb(48, 125, 196) 1px 1px 1px;
-          
         }
     
-    
+
 
 @media (max-width: 991px) { 
   #timeline {
