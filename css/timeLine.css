@@ -49,7 +49,7 @@ a {
 
         }
         #dates .selected {
-              font-size: 38px;
+              font-size: 33px;
               font-weight: 700;
               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
               text-shadow: rgb(30, 199, 250) 1px 1px 4px;
@@ -142,7 +142,5 @@ a {
        left: -60px;
      }
 
-     #dates .selected {
-       font-size: 26px!important;
-     }
+    
 }
