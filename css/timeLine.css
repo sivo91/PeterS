@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  color: #1f01a1;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+  a:hover,
+  a.selected {
+    color: #0011ff;
+  }
+
+
+.sociales {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+  #timeline {
+    width: 800px;
+    height: 360px;
+    overflow: hidden;
+    margin: 100px auto;
+    position: relative;
+   
+  }
+    #dates {
+      width: 60%;
+      height: 60px;
+      overflow: hidden;
+      
+    }
+      #dates li {
+        list-style: none;
+        float: left;
+        width: 100px;
+        height: 50px;
+        font-size: 24px;
+        text-align: center;   
+      }
+        #dates a {
+          line-height: 38px;
+          padding-bottom: 10px;
+        }
+        #dates .selected {
+              font-size: 38px;
+              font-weight: 700;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              text-shadow: rgb(30, 199, 250) 1px 1px 2px;
+        }
+    
+    #issues {
+      width: 800px;
+      height: 350px;
+      overflow: hidden;
+    } 
+      #issues li {
+        width: 800px;
+        height: 350px;
+        list-style: none;
+        float: left;
+      }
+        #issues li.selected img {
+          -webkit-transform: scale(1.1,1.1);
+          transform: scale(1.1,1.1);
+        }
+
+        #issues li img {
+          border-radius: 15px;
+          float: left;
+          margin: 10px 30px 10px 50px;
+          
+          -webkit-transition: all 2s ease-in-out;
+          transition: all 2s ease-in-out;
+          -webkit-transform: scale(0.7,0.7);
+          transform: scale(0.7,0.7);
+        }
+        
+        #issues li h1 {
+          color: #1206c2;
+          font-size: 48px;
+          margin: 20px 0;
+          text-shadow: rgb(30, 199, 250) 1px 1px 2px;
+        }
+        #issues li p {
+          font-size: 20px;
+          margin-right: 70px;
+          font-weight: normal;
+          line-height: 22px;
+          font-family: 'Times New Roman', Times, serif;
+          color: rgb(22, 5, 70);
+          text-shadow: rgb(48, 125, 196) 1px 1px 1px;
+          
+        }
+    
+    
+
+@media (max-width: 991px) { 
+  #timeline {
+    display: none;
+ }
+
+ .ha3 {
+   display: none;
+ }
+}

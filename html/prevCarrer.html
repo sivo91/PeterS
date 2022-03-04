@@ -6,9 +6,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!--  jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../js/jquery.timelinr-0.9.7.js"></script>
+
   <link rel="stylesheet" href="../css/nav.css">
   <link rel="stylesheet" href="../css/prv.css">
   <link rel="stylesheet" href="../css/prResponsive.css">
+  <link rel="stylesheet" href="../css/timeLine.css">
+  <!-- <link rel="stylesheet" href="../css/timeLine2.css"> -->
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -80,7 +88,111 @@
             <img src="../imgs/title-3.jpg" class="d-block w-100" alt="img">
           </div>
         </div>
+      </div><br>
+
+      <!-- TIME LINE JQUERY PLUGINS -->
+       <h3 class="mt-5 ha3">Time Line </h3>
+      
+      <div id="timeline">
+        <ul id="dates">
+          <li><a href="#1999">99/01</a></li>
+          <li><a href="#2001">01/07</a></li>
+          <li><a href="#2007">07/09</a></li>
+          <li><a href="#2009">09/11</a></li>
+          <li><a href="#2011">11/12</a></li>
+
+          <li><a href="#2012">12/13</a></li>
+          <li><a href="#2013">13/14</a></li>
+
+          <li><a href="#2014">14/15</a></li>
+          <li><a href="#2015">15/16</a></li>
+          <li><a href="#2016">16/17</a></li>
+          <li><a href="#2017">17/18</a></li>
+
+          <li><a href="#2018">18/19</a></li>
+        </ul>
+        <ul id="issues">
+          <li id="1999">
+            <img src="../timeLine/1982.jpg" width="256" height="256" />
+            <h1>1999/2001</h1>
+            <p>HK-32 Liptovsky Mikulas.</p>
+          </li>
+          <li id="2001">
+            <img src="../timeLine/33.png" width="256" height="256" />
+            <h1>2001/2007</h1>
+            <p>HK Dukla Trencin</p>
+            <p>HK Dubnica</p>
+            <p>SHK 37 Piestany</p>
+          </li>
+          <li id="2007">
+            <img src="../timeLine/Uasdf.jpg" width="256" height="256" />
+            <h1>2007/2009</h1>
+            <p>MsHK Zilina</p>
+            <p>MHK Zvolen</p>
+          </li>
+          <li id="2009">
+            <img src="../timeLine/2002.jpg" width="256" height="256" />
+            <h1>2009/2011</h1>
+            <p>PSG Zlin</p>
+          </li>
+          <li id="2011">
+            <img src="../hokejfoto/ak.png" width="256" height="256" />
+            <h1>2011/2012</h1>
+            <p>MsHK Zilina</p>
+          </li>
+          <li id="2012">
+            <img src="../timeLine/echl.jpg" width="256" height="256" />
+            <h1>2012/2013</h1>
+            <p>San Francisco Bulls</p>
+            <p>Worcester Sharks</p>
+          </li>
+          <li id="2013">
+            <img src="../timeLine/ak2.jpg" width="256" height="256" />
+            <h1>2013/2014</h1>
+            <p>Alaska Aces</p>
+            <p>Worcester Sharks</p>
+          </li>
+          <li id="2014">
+            <img src="../timeLine/maz.jpg" width="256" height="256" />
+            <h1>2014/2015</h1>
+            <p>Stockton Thunder</p>
+            <p>Bridgeport Sound Tigers</p>
+            <p>Orlando Solar Bears</p>
+          </li>
+          <li id="2015">
+            <img src="../hokejfoto/ala.png" width="256" height="256" />
+            <h1>2015/20016</h1>
+            <p>Fort Wayne Komets</p>
+            <p>Alaska Aces</p>
+          </li>
+          <li id="2016">
+            <img src="../hokejfoto/ak1.png" width="256" height="256" />
+            <h1>2016/2017</h1>
+            <p>Alaska Aces</p>
+          </li>
+          <li id="2017">
+            <img src="../timeLine/ak.jpg" width="256" height="256" />
+            <h1>2017/2018</h1>
+            <p>Utah Grizzlies</p>
+            <p>Rapid City Rush</p>
+          </li>
+          <li id="2018">
+            <img src="../hokejfoto/sanfran.png" width="256" height="256" />
+            <h1>2018/2019</h1>
+            <p>Tulsa Oilers</p>
+            <p>San Diego Gulls</p>
+          </li>
+        </ul>
+        
       </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -405,6 +517,7 @@
 
 
   <script src="../js/animation.js"></script>
+  <script src="../js/timeLine.js"></script>
   <script src="../js/app.js"></script>
 
 </body>
