@@ -13,7 +13,15 @@ main {
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: center; 
+}
+
+.bg-img {
+  position: absolute;
+  left: 10%;
+  top: 18%;
+  opacity: .03;
+  
 }
 
 .contact-content {
@@ -21,24 +29,37 @@ main {
   top: 130px;
 }
 
+.box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+ /* MAIL */
+.mail {
+  position: relative;
+  width: 330px;
+  top: 50px;
+}
+
+/*  FORM */
 form {
   position: relative;
-  width: 50%;
-  margin: 30px auto;
+  width: 380px;
+  margin: 30px 0;
   font-size: 20px;
   
 }
 
 fieldset {
-  padding: 50px;
   border-radius: 7px;
-   box-shadow: 2px 2px 42px gray;
-
+ border: 1px solid black;
 }
 
 legend {
   font-size: 25px;
-  padding:6px 10px;
   background-color: white;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -46,46 +67,27 @@ legend {
 
 #first-name, #last-name, #phone1, #email1
 {
-  padding: 5px 12px;
+  padding: 0px 10px;
   margin-top: 7px;
   border-radius: 4px;
 }
 
 #phone1 {
   position: relative;
-  left: 15px;
+  left: 18px;
 }
 
 #email1 {
    position: relative;
-  left: 18px;
+  left: 22px;
 }
 
- .btn {
-  padding: 7px 13px;
-  font-size: 20px;
-  background-color: white;
-  color: blue;
-  border: 1px solid blue;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-.btn:hover {
-  padding: 7px 13px;
-  font-size: 20px;
-  background-color: blue;
-  color: white;
-  border: 1px solid white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
 
 footer {
   position: relative;
-  margin-top: 90px;
+  margin-top: 150px;
   text-align: center;
 }
 
@@ -93,88 +95,55 @@ footer {
 
 
 /* FOR IPHONS */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
-  main {
-    position: relative;
-    width: 100%!important;
-  }
-
-  .contact-content{
-    position: relative;
-    top: -110px;
-    height: 100vh;
-  }
-
-   form {
-    position: relative;
-    width: 95%;
-    left: 2.5%;
-  }
-
-  fieldset {
-    position: relative;
-    width: 95%;
-    padding: 0;
- }
-
- button {
-   margin-bottom: 20px;
- }
-
-#first-name, #last-name, #phone1, #email1 {
-  padding: 3px
-}
-
-.message {
-  position: relative;
-  width: 300px;
-  padding: 10px;
-}
-  
-
-}
-
-@media screen and (max-width:500px) {
-  #message, #email1, #phone1, #first-name, #last-name {
-    position: relative;
-    width: 85%;
-    margin: 0 5px;
-  }
-
-   #email1, #phone1 {
+  .contact-content {
      position: relative;
-     left: -2px;
-   }
-
-}
-
-
-/* FOR IPAD */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
- 
-  form {
-    position: relative;
-    width: 90%;
+     top: -130px;
   }
 
- fieldset {
-   padding: 0;
- }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
 
- legend {
-   padding-top:5px ;
- }
+  .mail, form {
+    position: relative;
+   margin: 0 auto;
+  }
+  
+  form {
+    margin-top: 50px;
+  }
 
- button {
-   margin-bottom: 20px;
- }
+  footer {
+    position: relative;
+    top: -90px;
+    
+  }
 
-     
+  .bg-img {
+     display: none;
+  }
+
 }
 
 
+@media (max-width: 1200px) { 
+  .bg-img {
+     left: 2%;
+     top: 10%;
+     transform: scale(.6);
+  }
+}
 
+@media (max-width: 992px) { 
+  .bg-img {
+     left: -9%;
+     top: 5%;
+     transform: scale(.5);
+  }
+}
 
 
 
