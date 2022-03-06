@@ -95,4 +95,9 @@ main {
   .schovaj-pre-fon {
     display: none;
   }
+
+  /* touch & drag event  */
+  .Color-Detect {
+    display: none;
+  }
 }
