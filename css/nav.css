@@ -24,7 +24,7 @@ h6 {
 
 .dropdown {
   position: relative;
-  width: 60% !important;
+  width: 100% !important;
   top: 30px;
   margin: 0 auto;
   align-items: baseline; /* * */
@@ -149,7 +149,7 @@ h6 {
   .dropdown {
     position: relative;
     display: flex;
-    width: 90%;
+    width: 100%;
     top: 50px;
     flex-direction: column;
     align-self: center;
