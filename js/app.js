@@ -449,21 +449,23 @@ const showModal = () => {
      return `
         <div class="bgmodal"></div>
       
-        <div class="textbox">
-          <h2>Country: ${item.Country}</h2>
-          <h2>Team: ${item.Team}</h2>
-          <h2>League: ${item.League}</h2>
-          <h2>Years: ${item.Years}</h2>
-          <h2>Seassons: ${item.Seassons}</h2>
-          <h2>Games: ${item.Games}</h2>
-          <h2>Goals: ${item.Goals}</h2>
-          <h2>Assists: ${item.Assists}</h2>
-          <h2>Points: ${item.Points}</h2>
+       <div class="card" style="width: 350px;">
+        <img src="${item.img}" class="card-img-top" alt="img">
+        <div class="card-body textbox">
+          <h6>Team: ${item.Team}</h6>
+          <h6>League: ${item.League}</h6>
+          <h6>Country: ${item.Country}</h6>
+          <h6>Years: ${item.Years}</h6>
+          <h6>Seassons: ${item.Seassons}</h6>
+          <h6>Games: ${item.Games}</h6>
+          <h6>Goals: ${item.Goals}</h6>
+          <h6>Assists: ${item.Assists}</h6>
+          <h6>Points: ${item.Points}</h6>
         </div>
-        <div class="pictbox">
-          <img src="${item.img}" class="ImgModal2" alt="lmimg">
-        </div>
-        <i class="far fa-times-circle closebtn"></i>
+      </div>
+
+      <button type="button" class="btn btn-info closebtn">Close</button>
+        
      `} 
    }).join('') 
    

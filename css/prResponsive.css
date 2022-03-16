@@ -36,15 +36,7 @@
     width: 200px;
   }
 
-  .modal {
-    width: 80%;
-  }
-
-  .closebtn {
-    position: fixed;
-    left: 90%;
-  }
-
+ 
   .panel {
     min-height: 100vh;
   }
@@ -86,21 +78,13 @@ figure, .stocktonText {
   margin-top: 10px;
 }
 
-.modal {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  
-  }
+
 
   .panel {
     position: relative;
     min-height: 100vh!important;
   }
 
- 
-
-  
 
 
  }
@@ -127,15 +111,12 @@ figure, .stocktonText {
 
   .modal {
     position: fixed;
-    width: 120%;
-    left: -40px;
+    width: 350px;
+    left: 30px;
 
   }
 
-  .closebtn {
-    position: fixed;
-    left: 10%;
-  }
+
 
   .curiozitka {
      width: 350px;
