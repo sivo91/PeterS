@@ -343,8 +343,8 @@ map.addLayer(markers);
     
 
 
-  // get numbrs for current position
-   navigator.geolocation.getCurrentPosition(function(position) {
+  // get  current position
+   /* navigator.geolocation.getCurrentPosition(function(position) {
 
      let point4 = [position.coords.longitude,position.coords.latitude];
      console.log('your current position: ' + point4)
@@ -358,7 +358,7 @@ map.addLayer(markers);
      
       markers.getSource().addFeature(marker4);
    }) 
-
+ */
 
    // draw to map
    /* const draw = new ol.interaction.Draw({
