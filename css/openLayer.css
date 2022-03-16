@@ -62,4 +62,5 @@
 
       .pointCard {
         box-shadow: 2px 2px 20px gray;
+        transform: scale(0.6);
       }
