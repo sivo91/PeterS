@@ -60,7 +60,7 @@
    },
    {
      id: 15,
-     img: '../hokejfoto/tn.jpg'
+     img: '../hokejfoto/sf4.png'
    },
    {
      id: 16,
@@ -80,7 +80,7 @@
    },
    {
      id:20,
-     img: '../hokejfoto/lm.jpg'
+     img: '../hokejfoto/modalBG.png'
    }
  ]
 
