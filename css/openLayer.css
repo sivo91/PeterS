@@ -57,9 +57,17 @@
   top: -40px;
   height: 200px;
   transform: scale(0.5);
+  opacity: 1;
+}
+
+.openLayer-close-btn {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .pointCard {
   box-shadow: 2px 2px 20px gray;
   transform: scale(0.6);
+  border-radius: 17px;
 }

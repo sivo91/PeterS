@@ -290,7 +290,7 @@ let point1 = [-159.6312637, 20.9473655];
           
             const img = fotky.map(item => {
               if(item.id === clickedFeatureId){
-                const img = `<img src="${item.img}" class="card-img-top" alt="img">`
+                const img = `<img src="${item.img}"  alt="img">`
                 //console.log(img)
                 return img
               }
@@ -308,7 +308,7 @@ let point1 = [-159.6312637, 20.9473655];
                     <h5 class="text-center">${clickedFeatureCountry}</h5>
                     <h6 class="text-center">${clickedFeatureYear}</h6>
                    <div class="d-grid gap-2">
-                    <button class="btn btn-secondary" type="button">Close</button>
+                    <button class="btn btn-info openLayer-close-btn" type="button">Close</button>
                   </div>
                   </div>
                 </div>

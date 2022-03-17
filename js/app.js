@@ -466,7 +466,8 @@ const showModal = () => {
 
       <button type="button" class="btn btn-info closebtn">Close</button>
         
-     `} 
+     `
+    } 
    }).join('') 
    
        // for future add to line 466 for total stats
