@@ -15,12 +15,11 @@ function flipCard() {
   this.classList.toggle('turn')
   let audioEffect = new Audio('../sound/click.mp3')
   audioEffect.play()
-  audioEffect.volume = .5
+  audioEffect.volume = .1
 
   if(!turnedCard) {
     // prvy click
-     turnedCard = true
-     
+     turnedCard = true 
      front = this 
   } else {
     // druhy click
