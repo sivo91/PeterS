@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.karticky {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-top: 20px;
+}
+
+.kartickyBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.karticka {
+  position: relative;
+  width: 340px;
+  height: 470px;
+  cursor: pointer;
+  border-radius: 9px;
+  margin: 8px 14px;
+  transform-style: preserve-3d;
+  transition: transform 0.7s;
+}
+
+.karticka:active {
+  transition: transform 1s;
+}
+
+.karticka.turn {
+  transform: rotateY(180deg);
+}
+
+.karticka-front,
+.karticka-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.karticka-front {
+  transform: scale(0.6);
+  transform: rotateY(180deg);
+}
+
+.bckimg {
+  transform: scale(0.6);
+  border-radius: 9px;
+  box-shadow: 2px 2px 25px gray;
+}
+
+@media (max-width: 992px) {
+  .karticky {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .kartickyBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .karticka {
+    margin: 0 auto;
+  }
+
+  .crd-B {
+    position: relative;
+    top: -40px;
+  }
+}
