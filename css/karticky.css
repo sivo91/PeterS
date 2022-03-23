@@ -64,19 +64,7 @@
 }
 
 @media (max-width: 768px) {
-  .kartickyBox {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  .karticka {
-    margin: 0 auto;
-  }
-
-  .crd-B {
-    position: relative;
-    top: -40px;
+  .karticky {
+    display: none;
   }
 }
