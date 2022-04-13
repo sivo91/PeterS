@@ -3,25 +3,25 @@
 [
  
   {
-    "g":7.6,
+    "g":4.6,
     "a": "37",
      "color": "blue",
      "team" : "L.Mikulas"
   },
   {
-    "g":6.4,
+    "g":1.4,
     "a":"3",
      "color": "red",
      "team": "Piestany"
   },
   {
-    "g":6.3,
+    "g":1.3,
     "a": "1",
      "color": "#ff5982",
      "team" : "P.Bystrica"
   },
   {
-    "g":7.6,
+    "g":4.4,
     "a":"34",
      "color": "purple",
      "team": "Dubnica"
@@ -33,85 +33,85 @@
      "team" : "Trencin"
   },
   {
-    "g":19,
+    "g":15,
     "a":"162",
      "color": "#00ab25",
      "team": "Zilina"
   },
   {
-    "g":14,
+    "g":11,
     "a":"107",
      "color": "#002fff",
      "team" : "Zlin"
   },
   {
-    "g":11,
+    "g":8,
     "a":"67",
      "color": "#ff0019",
      "team": "San Francisco"
   },
   {
-    "g":6.3,
+    "g":1.9,
     "a":"9",
      "color": "#07838f",
      "team" : "Worchester Sharks"
   },
   {
-    "g":21,
+    "g":17,
     "a":"181",
      "color": "#0324ff",
      "team": "Alaca Aces"
   },
   {
-    "g":6.3,
+    "g":1.5,
     "a":"3",
      "color": "#168ef0",
      "team" : "Abbotsford Heat"
   },
   {
-    "g":9,
+    "g":4,
     "a": "29",
      "color": "#8f9e06",
      "team": "Stockton Thunder"
   },
   {
-    "g":6.3,
+    "g":1.3,
     "a":"6",
      "color": "#051aff",
      "team" : "Bridgeport S Tigers"
   },
   {
-    "g":7.3,
+    "g":3.6,
     "a":"25",
      "color": "#ae02c4",
      "team": "Orlando S Bears"
   },
   {
-    "g":6.3,
+    "g":1.2,
     "a":"4",
      "color": "#01691d",
      "team" : "Utah Grizzlies"
   },
   {
-    "g":6.5,
+    "g":2,
     "a":"10",
      "color": "#471005",
      "team": "Fort Wayne Komets"
   },
   {
-    "g":11,
+    "g":7.5,
     "a":"58",
      "color": "#d62906",
      "team" : "Rapid City Rush"
   },
   {
-    "g":6.7,
+    "g":2,
     "a":"10",
      "color": "#284a85",
      "team": "Tulsa Oilers"
   },
   {
-    "g":6.3,
+    "g":1.3,
     "a":"1",
      "color": "#c0c4c4",
      "team" : "San Diego Gulls"
