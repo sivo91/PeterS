@@ -84,16 +84,12 @@ figure, .stocktonText {
     position: relative;
     min-height: 100vh!important;
   }
-
-
-
  }
 
 
  /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) { 
-
-
+  
   .content-prev-car {
     position: relative;
     top: -130px;
