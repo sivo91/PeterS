@@ -1,0 +1,33 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.chart2 {
+  position: relative;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  left: 10%;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+p {
+  position: relative;
+  left: 1px;
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .chart2 {
+    position: relative;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    left: 5%;
+    padding: 0px;
+    margin-top: 10px;
+  }
+}
