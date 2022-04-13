@@ -6,49 +6,49 @@
     "g":4.6,
     "a": "37",
      "color": "blue",
-     "team" : "L.Mikulas"
+     "team" : "HK 32 Liptovsky Mikulas"
   },
   {
     "g":1.4,
     "a":"3",
      "color": "red",
-     "team": "Piestany"
+     "team": "SHK 37 Piestany"
   },
   {
     "g":1.3,
     "a": "1",
      "color": "#ff5982",
-     "team" : "P.Bystrica"
+     "team" : "HK 95 P.Bystrica"
   },
   {
     "g":4.4,
     "a":"34",
      "color": "purple",
-     "team": "Dubnica"
+     "team": "HK Dubnica"
   },
   {
-    "g":25,
+    "g":20,
     "a": "254",
      "color": "red",
-     "team" : "Trencin"
+     "team" : "HK Dukla Trencin"
   },
   {
     "g":15,
     "a":"162",
      "color": "#00ab25",
-     "team": "Zilina"
+     "team": "MsHK Zilina"
   },
   {
     "g":11,
     "a":"107",
      "color": "#002fff",
-     "team" : "Zlin"
+     "team" : "PSG Zlin"
   },
   {
     "g":8,
     "a":"67",
      "color": "#ff0019",
-     "team": "San Francisco"
+     "team": "San Francisco Bulls"
   },
   {
     "g":1.9,
