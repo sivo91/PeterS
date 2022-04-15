@@ -37,13 +37,20 @@
                   });
 
     bar.append("rect")
-       .attr("width", function(d) {
-                return d.g * scaleFactor;
-       })
+       .attr("width", 2)
        .attr("fill", function ( d ) {
           return d.color;
         })
-       .attr("height", barHeight - 1);
+       .attr("height", barHeight - 1)
+       .transition()  //  code a rest for animation
+         .ease(d3.easeLinear)   // change animation
+         .duration(2000)
+         .delay(2400)
+         .attr('width', function(d) {
+                return d.g * scaleFactor;
+       }
+         )
+       
 
     bar.append("text")
        .attr("x", function(d) { return (d*scaleFactor); })
@@ -58,7 +65,7 @@
      .attr("fill", 'white')
      .attr("dy", ".3em")
      .attr("y", ".6em")
-     .attr("dx", ".2em")
+     .attr("dx", ".1em")
      .text(function(d) { return d.a; });
 
        return bar
