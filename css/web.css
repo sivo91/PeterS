@@ -103,3 +103,11 @@ main {
     display: none;
   }
 }
+
+
+.adobeImg {
+  width: 600px;
+  position: relative;
+  top: 80px;
+  cursor: pointer;
+}
