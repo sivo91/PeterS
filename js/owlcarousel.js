@@ -9,35 +9,46 @@ const loading = document.querySelector('.project-content ul')
 
 
   //  data for carousel
- (async function getData () {
+ async function getData () {
 
      try {
+         //loading.innerHTML = '<p class="text-center fs-2">Loading...</p>'
+         loading.innerHTML = ` 
+         <button class="btn btn-secondary" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Loading...
+         </button> `
 
          const res = await fetch(urlForCarousel)
          const data = await res.json()
-         console.log(data)
+         //console.log(data)
+         return data
 
-         displayOwlCarousel(data) 
+         //displayOwlCarousel(data) 
          
      } catch (err) {
          console.log(err)
          loading.innerHTML = '<h4 class="loading text-center">There is a problem with server.</h4>'
      }
- })()
+ }
+
+
 
    // display owl 
- const displayOwlCarousel = (fotos) => {
+ const displayOwlCarousel = (data) => {
    
-    const owlOutput = fotos.map(foto => {
+    const owlOutput = data.map(foto => {
         return `
            <div class="item">
            <img src="${foto.img}" data-bs-toggle="modal" data-bs-target="#exampleModal${foto.id}" alt="img">
            </div>
         `
     }).join('')
-    console.log(owlOutput)
+    /* console.log(owlOutput)
     const owlCarousel = document.querySelector('.owl-carousel')
-    owlCarousel.innerHTML = owlOutput
+    owlCarousel.innerHTML = owlOutput */
+    const owlData = ` <div class="owl-carousel owl-theme">${owlOutput}</div>`
+    loading.innerHTML = `<div class="loading-adobe-projects"> ${owlData} </div>`
 
     owlMechanism()
  } 
@@ -78,6 +89,13 @@ $('.stop').on('click',function(){
 })
 }
 
+ // lebo getData je asyng return me da pending a start bud asyng alebo .then
+ const start = async() => {
+     const data = await getData()
+     displayOwlCarousel(data)
+ }
+
+ start()
 
 // data for popup  NEJDE :|
    (async function getPopUpData() {
