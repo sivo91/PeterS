@@ -12,12 +12,13 @@ const loading = document.querySelector('.project-content ul')
  async function getData () {
 
      try {
-         //loading.innerHTML = '<p class="text-center fs-2">Loading...</p>'
+         // loading text
          loading.innerHTML = ` 
-         <button class="btn btn-secondary" type="button" disabled>
+         <button class="btn btn-dark ms-5" type="button" disabled>
             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
             Loading...
-         </button> `
+         </button>   
+         `
 
          const res = await fetch(urlForCarousel)
          const data = await res.json()
