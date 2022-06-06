@@ -1,16 +1,18 @@
 
-   
- // direction from server
+
+const loading = document.querySelector('.project-content ul')
+
+// direction from server
  const urlForCarousel = 'https://firstserver.peter119.repl.co/Adobe_Projects';
 
  const urlForPopUp = 'https://firstserver.peter119.repl.co/Adobe_PopUps';
-
 
 
   //  data for carousel
  (async function getData () {
 
      try {
+
          const res = await fetch(urlForCarousel)
          const data = await res.json()
          console.log(data)
@@ -19,6 +21,7 @@
          
      } catch (err) {
          console.log(err)
+         loading.innerHTML = '<h4 class="loading text-center">There is a problem with server.</h4>'
      }
  })()
 
@@ -107,4 +110,5 @@ const showPopUP = (data2) => {
     modals.innerHTML = newModals
 } 
  
+
 
