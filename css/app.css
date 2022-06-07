@@ -40,6 +40,15 @@ main {
   font-size: 1.2rem;
 }
 
+
+
+.resume-container {
+  position: relative;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .resume {
   position: relative;
   margin-top: 2rem;
@@ -71,6 +80,16 @@ main {
   animation: arrow 1s  infinite;
 }
 
+.doubledown2 {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  font-size: 17px;
+  margin: 5px;
+  animation: arrow 1s infinite;
+  animation-delay: 0.5s;
+}
+
 
 
  .views {
@@ -89,7 +108,7 @@ main {
 
   50% { transform: translateY(4px); }
 
-   0% { transform: translateY(0); }
+   0% { transform: translate(0); }
 
 }
 
@@ -120,12 +139,15 @@ main {
     width: 280px;
   }
 
-  .resume {
+  .resume-container {
     position: relative;
-    margin-top: 2rem;
-    margin-bottom: 6rem;
-    left: -9px;
+    width: 100%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
   }
+
+ 
 }
 
 @media (max-width: 768px) { 
