@@ -53,16 +53,13 @@
      titleH3.style.color = ''
      titleH3.innerHTML = 'Web Designer and Developer'
      texts.style.color = ''
-
-     
       nav.style.color = ''
       dropdown.style.backgroundColor = ''
      
-
      for (let i = 0 ; i < alink.length; i++) {    
        alink[i].style.color = '';
+      }
      }
-   }
 
     }
 
