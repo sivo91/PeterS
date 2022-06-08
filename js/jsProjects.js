@@ -39,7 +39,7 @@ async function displayProjects (data) {
                     <h6>${item.describe}</h6>
                     <button type="button" class="btn btn-outline-secondary project-btn"><a href="${item.url}" class="project-link-card" >
                       ${item.icon}
-                      </i> Final Project / SRJC</a></button>
+                      </i> Project</a></button>
                   </div>
                 </div>
      `
