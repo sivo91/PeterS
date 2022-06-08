@@ -101,6 +101,23 @@ main {
   color: blue;
 }
 
+.toggle-title-page {
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  font-size: 40px;
+  z-index: 50;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 /* reponsive ***************/
 
 @keyframes arrow {
