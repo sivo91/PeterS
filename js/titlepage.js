@@ -12,10 +12,8 @@
     let nav = document.querySelector('.fa-bars')
     let dropdown = document.querySelector('.dropdown')
     let w = document.documentElement.clientWidth || window.innerWidth
+
     
-   
-
-
  function togglePage() {
   
    if(icon.classList.contains('bi-toggle-on')){
