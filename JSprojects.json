@@ -1,0 +1,107 @@
+
+[
+  {
+    "title": "Final Project / SRJC",
+    "describe": "*Web Development I",
+    "url": "https://webdevelopment-1.peter119.repl.co/index.html", 
+    "id":1,
+    "img": "../JSprojectImgs/ocko.png",
+    "icon" : "<i class='fas fa-graduation-cap'>"
+  },
+  {
+    "title": "Final Project / SRJC",
+    "describe": "*Web Development II",
+    "url": "https://webdevelopment-2.peter119.repl.co//index.html", 
+    "id":2,
+    "img": "../JSprojectImgs/pro2.png",
+    "icon" : "<i class='fas fa-graduation-cap'>"
+  },
+  {
+    "title": "Final Project / SRJC",
+    "describe": "*Web Development III",
+    "url": "https://final-project-react-node-server.peter119.repl.co//index.html", 
+    "id":3,
+    "img": "../JSprojectImgs/pro3.png",
+    "icon" : "<i class='fas fa-graduation-cap'>"
+  },
+  {
+    "title": "Color Detector",
+    "describe": "",
+    "url": "https://jquery-color-deterctor.peter119.repl.co//index.html", 
+    "id":4,
+    "img": "../JSprojectImgs/pro4.png",
+    "icon" : "<i class='bi bi-code-slash'>"
+  },
+  {
+    "title": "Web Speech App",
+    "describe": "",
+    "url": "https://sivo91.github.io/Web-Speech-API/app.html", 
+    "id":5,
+    "img": "../JSprojectImgs/pro5.png",
+    "icon" : "<i class='fas fa-microphone-alt'>"
+  },
+  {
+    "title": "Pexeso",
+    "describe": "",
+    "url": "https://pexeso.peter119.repl.co/index.html", 
+    "id":6,
+    "img": "../JSprojectImgs/pro6.png",
+    "icon" : "<i class='fas fa-dice'>"
+  },
+  {
+    "title": "Shopping Cart",
+    "describe": "",
+    "url": "https://sivo91.github.io/Shoping-Cart-Iphone-X-Hockeys-Sticks//html/app.html", 
+    "id":7,
+    "img": "../JSprojectImgs/pro7.png",
+    "icon" : "<i class='fas fa-cart-arrow-down'>"
+  },
+  {
+    "title": "Quessing Game",
+    "describe": "",
+    "url": "https://quessing-game.peter119.repl.co//index.html", 
+    "id":8,
+    "img": "../JSprojectImgs/pro8.png",
+    "icon" : "<i class='bi bi-patch-question'>"
+  },
+  {
+    "title": "Analog Clock",
+    "describe": "",
+    "url": "https://analogclock.peter119.repl.co//index.html", 
+    "id":9,
+    "img": "../JSprojectImgs/pro9.png",
+    "icon" : "<i class='far fa-clock'>"
+  },
+  {
+    "title": "Drive-in Theater",
+    "describe": "",
+    "url": "https://drive-in-theater.peter119.repl.co/index.html", 
+    "id":10,
+    "img": "../JSprojectImgs/pro10.png",
+    "icon" : "<i class='fas fa-film'>"
+  },
+  {
+    "title": "Bank Account",
+    "describe": "",
+    "url": "https://bank-account.peter119.repl.co/", 
+    "id":11,
+    "img": "../JSprojectImgs/pro11.png",
+    "icon" : "<i class='far fa-credit-card'>"
+  },
+  {
+    "title": "Hockey Shop",
+    "describe": "",
+    "url": "https://hockeysticks.peter119.repl.co/index.html", 
+    "id":12,
+    "img": "../JSprojectImgs/pro12.png",
+    "icon" : "<i class='fas fa-shopping-basket'>"
+  },
+  {
+    "title": "Rock, Paper and Scissor",
+    "describe": "",
+    "url": "https://paper-rock-scissor.peter119.repl.co//index.html", 
+    "id":13,
+    "img": "../JSprojectImgs/pro13.png",
+    "icon" : "<i class='far fa-hand-scissors'>"
+  }
+]
