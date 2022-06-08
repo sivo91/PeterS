@@ -1,0 +1,28 @@
+
+
+[
+  {
+    "title": "Sleeperwave Films",
+    "describe": "",
+    "url": "https://dev-sleeperwave-films.pantheonsite.io/", 
+    "id":1,
+    "img": "../wpProjectsImages/wp1.png",
+    "icon" : "<i class='bi bi-film'>"
+  },
+  {
+    "title": "Ancient Greek Civilization",
+    "describe": "",
+    "url": "https://dev-peters.pantheonsite.io/", 
+    "id":2,
+    "img": "../wpProjectsImages/wp2.png",
+    "icon" : "<i class='bi bi-bank2'>"
+  },
+  {
+    "title": "Rock & Minerals",
+    "describe": "",
+    "url": "https://dev-ocko.pantheonsite.io/", 
+    "id":3,
+    "img": "../wpProjectsImages/wp3.png",
+    "icon" : "<i class='bi bi-cart2'>"
+  }
+]

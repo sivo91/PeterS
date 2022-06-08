@@ -1,6 +1,4 @@
 
-
-
 const Loading = document.querySelector('.display-projects')
 
 
@@ -14,7 +12,7 @@ async function getProjects() {
          </button>   
          `
  
-         const res = await fetch('../JSON/JSprojects.json')
+         const res = await fetch('../JSON/wpJSON.json')
          const data = await res.json()
          //console.log(data)
          return data
@@ -56,23 +54,3 @@ const start = async () => {
 }
 
 start()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
