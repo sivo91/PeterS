@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Playfair+Display&family=Spectral+SC:ital,wght@1,200&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rajdhani:wght@500&family=Raleway:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=New+Tegomin&family=Rajdhani:wght@500&family=Raleway:wght@300;400&display=swap');
 
 * {
   padding: 0;
@@ -6,185 +10,92 @@
   box-sizing: border-box;
 }
 
-nav {
-  position: absolute;
-  width: 100% !important;
-  top: 20px;
-  z-index: 99989898;
+.name {
+  list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Inknut Antiqua", serif;
-}
 
-.dropdown {
+
+main {
   position: relative;
-  width: 100% !important;
-  top: 30px;
-  margin: 0 auto;
-  align-items: baseline; /* * */
+  width: 100%;
+}
+
+li.nav-item {
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover {
+  font-weight: 500;
+  color: blue;
+}
+
+.title-h1, .title-h3, h2,
+h3 {
+  font-family: 'Arbutus Slab', serif;
+}
+
+.panel {
+  position: relative;
   display: flex;
-  justify-content: space-evenly;
-  align-self: center;
-  list-style: none;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.dropdown > li {
-  float: left;
+.imgtitle {
   position: relative;
+  margin-top: 5rem;
+  width: 220px;
+  height: 220px;
+  border-bottom: 8px solid rgba(92, 30, 163, 0.781);
+  border-radius: 52%;
+  /* display: contents; */
+  overflow: hidden;
 }
 
-.dropdown > li:hover {
-  background-color: rgb(15, 10, 83);
-  border-radius: 4px;
-  /*  outline: 2px solid rgb(15, 10, 83);
-  outline-offset: 3px; */
+.heroImage {
+  width: 220px;
 }
 
-.dropdown > li:hover a {
-  color: white;
-}
-
-.dropdown > li:hover > ul > li > a {
-  color: rgb(15, 10, 83);
-}
-
-#point {
-  cursor: none;
-}
-
-.dropdown a {
-  text-decoration: none;
-  color: rgb(15, 10, 83);
-  font-size: 25px;
-  padding: 4px 8px;
-  display: block;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.dropdown > li > ul {
-  position: absolute;
-  left: 0px;
-}
-
-.dropdown li:hover > ul {
-  display: block;
-  z-index: 5;
-  top: 35px;
-  opacity: 1;
-}
-
-.dropdown li ul li:hover {
-  background: rgb(15, 10, 83);
-  border-radius: 4px;
-  /*  outline: 2px solid rgb(15, 10, 83);
-  outline-offset: 3px; */
-}
-
-.dropdown li ul li:hover a {
-  color: white;
-}
-
-.dropdown ul {
-  position: absolute;
-  padding: 0;
-  min-width: 160px;
-  display: none;
-  top: 70%;
-  left: 0;
-  list-style: none;
-  opacity: 0;
-}
-
-.dropdown > li > ul a {
-  white-space: nowrap;
-}
-
-.dropdown > li > ul > li > a {
-  font-size: 20px;
-}
-
-.hamb {
+.texts {
   position: relative;
-  font-size: 27px;
-  display: none !important;
+  width: 40%;
+  margin-top: 3rem;
+  font-size: 1.2rem;
 }
 
-/* media  @ */
+.views {
+  color: white;
+  margin: 40px;
+}
 
-/* FOR IPHONS */
-@media only screen and (max-width: 768px) {
-  nav {
+.views:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.eye:hover {
+  color: blue;
+}
+
+.toggle-title-page {
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  font-size: 40px;
+  z-index: 50;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .texts {
     position: relative;
-    top: -300px;
-    border-radius: 20px;
-  }
-
-  .hamb {
-    position: absolute !important;
-    top: 280px !important;
-    left: 30px !important;
-    display: block !important;
-    z-index: 999999;
-  }
-
-  nav h1 {
-    padding-top: 10px;
-  }
-
-  .hamb {
-    position: absolute;
-    font-size: 27px;
-    top: 40px;
-    left: 300px;
-    list-style-type: none;
-    display: none;
-  }
-
-  .dropdown {
-    position: relative;
-    display: flex;
-    width: 100%;
-    top: 50px;
-    flex-direction: column;
-    align-self: center;
-    list-style: none;
-    padding-left: 90px;
-    background-color: aliceblue;
-    border-radius: 7px;
-    padding: 5px;
-    border: 2px solid rgb(15, 10, 83);
-  }
-
-  .dropdown > li:hover {
-    border-bottom: none;
-    /* background:rgb(15, 10, 83) ; */
-  }
-
-  .dropdown li:hover > ul {
-    display: block;
-    z-index: 5;
-    top: 0px;
-    padding-left: 80px;
-    opacity: 1;
-  }
-
-  .dropdown > li > ul {
-    position: relative;
-    display: none;
-  }
-
-  .dropdown > li:hover > ul {
-    position: relative;
-    display: block;
-  }
-
-  .dropdown li:hover ul li a {
-    color: white;
+    width: 70%;
   }
 }

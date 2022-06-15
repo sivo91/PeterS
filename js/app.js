@@ -417,7 +417,7 @@
  //  SHOW DRESY
 
  const modal = document.querySelector('.modal')
- const panel = document.querySelector('.panel')
+ const panel = document.querySelector('.panel-dresy')
  const btnContainer = document.querySelector('.btn-container')
  
 
