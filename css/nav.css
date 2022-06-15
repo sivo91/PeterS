@@ -27,8 +27,7 @@ li.nav-item {
 }
 
 .nav-link:hover {
-  font-weight: 500;
-  color: blue;
+  color: rgb(0, 0, 0);
 }
 
 .title-h1, .title-h3,h2, h4 {
