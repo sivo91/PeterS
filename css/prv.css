@@ -18,12 +18,11 @@ main {
 
  .content-prev-car{
   position: relative;
-  top: 130px;
   width: 80%!important;
   left: 10%;
   height: 100%;
   margin-bottom: 150px;
-  
+  margin-top: 30px;
 }
 
 .backgroundImg {
@@ -162,10 +161,6 @@ h2,h3,h4 {
 }
 
 
-
-
-
-
 .medaileBox {
   position: relative;
   display: flex;
@@ -186,8 +181,6 @@ h2,h3,h4 {
   font-family: "Inknut Antiqua", serif;
 }
 
-
-
 .alaska-cup {
   position: relative;
   width: 100%;
@@ -204,9 +197,6 @@ h2,h3,h4 {
 .AK-CUP:hover{
   cursor: pointer;
 }
-
-
-
 
   /* ROTATION LOGO */
 .tn-logo-rotation, .AK-logo-rotation {
@@ -285,13 +275,6 @@ h2,h3,h4 {
     transform: rotateY(360deg);
   }
 }
-
-
-
-
-
-
-
 
 
 
@@ -526,17 +509,6 @@ h2,h3,h4 {
   z-index: 66668;
 }
 
-/* .totalstats {
-  position: relative;
-  left: 45%;
-  width: 200px;
-  background-color: blanchedalmond;
-  padding: 15px;
-  border-radius: 8px;
-  z-index: 888;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  top: 400px;
-} */
 
 .closebtn {
   position: relative;

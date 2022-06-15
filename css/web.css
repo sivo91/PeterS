@@ -25,7 +25,6 @@ main {
 
 .project-content {
   position: relative;
-  top: 130px;
   width: 100%;
   min-height: 100vh;
 }
@@ -90,7 +89,7 @@ main {
 
   .project-content  {
     position: relative;
-    top: -120px;
+    margin-top: 30px;
     width: 100%!important;
   }
 
@@ -151,12 +150,12 @@ main {
 }
 
 .project-card:hover {
-  transform: translate(-30px, 30px);
+  transform: translate(-20px, 20px);
   
-    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--blue),
-      20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
-      30px -30px 0 -3px var(--background), 30px -30px var(--purple),
-      40px -40px 0 -3px var(--background), 40px -40px var(--red);
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--purple),
+      20px -20px 0 -3px var(--background), 20px -20px var(--blue),
+      30px -30px 0 -3px var(--background), 30px -30px var(--purple)
+      
 }
 
 .project-card-img {

@@ -49,7 +49,7 @@
 
   .content-prev-car {
     position: relative;
-    top: -130px;
+    margin-top: 30px;
   }
 
   .certifBox {
@@ -92,7 +92,7 @@ figure, .stocktonText {
   
   .content-prev-car {
     position: relative;
-    top: -130px;
+    margin-top: 30px;
   }
 
   .cups {

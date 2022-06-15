@@ -14,15 +14,15 @@ main {
 }
 
 .title {
-  font-family: 'Arbutus Slab', serif;
+font-family: 'Arbutus Slab', serif;
 }
 
 article {
   position: relative;
   width: 500px;
-  top: 130px;
+
   text-align: center;
-  margin: 0 auto;
+  margin: 30px auto;
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -35,23 +35,8 @@ article {
     top: 0px!important;
   }
 
-  main article {
-    position: relative;
-    top: -120px;
-  }
-}
-
-
-@media (max-width: 768px) {
-  article {
-    position: relative;
-    top: -120px;
-}
 
 }
-
-
-
 
 
 
@@ -59,9 +44,8 @@ article {
   article {
     position: relative;
     width: 300px;
-    top: -120px;
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto;
     font-size: 20px;
     letter-spacing: 1px;
   }

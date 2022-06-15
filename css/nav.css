@@ -31,8 +31,7 @@ li.nav-item {
   color: blue;
 }
 
-.title-h1, .title-h3, h2,
-h3 {
+.title-h1, .title-h3,h2, h4 {
   font-family: 'Arbutus Slab', serif;
 }
 

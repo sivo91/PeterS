@@ -7,7 +7,9 @@
   box-sizing: border-box;
 }
 
-
+h2,h3 {
+  font-family: 'Arbutus Slab', serif;
+}
 
 main {
   position: relative;
@@ -24,10 +26,7 @@ main {
   
 }
 
-.contact-content {
-  position: relative;
-  top: 130px;
-}
+
 
 .box {
   position: relative;
@@ -50,19 +49,9 @@ form {
   width: 380px;
   margin: 30px 0;
   font-size: 20px;
-  
-}
-
-fieldset {
-  border-radius: 7px;
- border: 1px solid black;
-}
-
-legend {
-  font-size: 25px;
-  background-color: white;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+  padding-top: 18px;
+  background-color: rgba(145, 151, 151, 0.151);
+  border-radius: 14px;
 }
 
 #first-name, #last-name, #phone1, #email1
@@ -70,6 +59,10 @@ legend {
   padding: 0px 10px;
   margin-top: 7px;
   border-radius: 4px;
+}
+
+label {
+  color: rgb(32, 28, 28);
 }
 
 #phone1 {
@@ -96,11 +89,6 @@ footer {
 
 /* FOR IPHONS */
 @media only screen and (max-width: 768px) {
-
-  .contact-content {
-     position: relative;
-     top: -130px;
-  }
 
   .box {
     display: flex;
