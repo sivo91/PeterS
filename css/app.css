@@ -11,8 +11,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 30px;
   min-height: 100vh;
-  margin: 30px auto;
   text-align: center;
   align-items: center;
  
@@ -130,32 +130,27 @@ main {
 /* iphone */
 @media (max-width: 570px) {
 
-  main {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-  }
 
- .container1 {
+
+.imgtitle {
   position: relative;
-  min-height: 1060px;
- }
+  overflow: hidden;
+}
   
+ .heroImage {
+  position: relative;
+  width: 100%;
+
+ }
 
   .texts {
     position: relative;
-    width: 280px;
+    width: 350px;
   }
 
   .resume-container {
     position: relative;
     width: 100%;
-    left: 5%;
     display: flex;
     flex-direction: column;
   }
