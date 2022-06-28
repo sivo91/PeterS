@@ -1,8 +1,10 @@
 
+  import  jersy from "./jersy.js"
+ 
 
 
       //DRESY & LOGO
-    const jersy = [
+    /* const jersy = [
       {
         imagejersy: "../logos/dress.png",
         imagelogo: "../logos/lm.png",
@@ -124,7 +126,7 @@
         id:20,
         team: "San Diego Gulls"
       },
-    ] 
+    ]  */
 
     //console.log(jersy)
       
@@ -392,7 +394,7 @@
         img: '../hokejfoto/ABBOTSF.png'
       }
     ]
-
+ 
 
    // *****************************
 
@@ -570,7 +572,8 @@ const paginate = (jersy) => {
 const displayButtons = (btnContainer, pages, activeIndex) => {
   //console.log(btnContainer, pages, activeIndex)
   let btns = pages.map((_, pageIndex) => {
-    return `<button class="page-btn ${ activeIndex === pageIndex ? 'active-btn' : 'null' }" data-index="${pageIndex}">${pageIndex + 1}</button>`
+     return `<button class="page-btn ${ activeIndex === pageIndex ? 'active-btn' : 'null' }" data-index="${pageIndex}">${pageIndex + 1}</button>` 
+
   })
   btns.push('<button class="next-btn">></button>')
   btns.unshift('<button class="prev-btn"><</button>')
