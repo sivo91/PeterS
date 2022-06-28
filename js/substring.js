@@ -24,11 +24,6 @@ let text2 = `I graduated from Solano Community College in Web Development and De
 
 
 
-
-
-
-
-
 p2.innerHTML = text2.substring(0,23) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
 
 function paragr2() {
@@ -47,11 +42,6 @@ function paragr2() {
     
   }
 }
-
-
-
-
-
 
 
  /* next paragr */

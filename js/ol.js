@@ -136,7 +136,7 @@ let point1 = [-159.6312637, 20.9473655];
 
       //console.log(ol.control.defaults())
 
-      // tri mapy z inim pozadim 
+      // tri mapy z inym pozadim 
       // zmemim visible false to true
       const openStreetMapStandard = new ol.layer.Tile({
         source: new ol.source.OSM(),

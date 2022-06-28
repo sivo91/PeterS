@@ -126,7 +126,7 @@ btnContainer.addEventListener('click',  function (e) {
        index = parseInt(e.target.dataset.index)
        setupUI()
      }
-
+     // to right 
      if (e.target.classList.contains('next-btn')) {
        index++
        if(index > pages.length - 1) {
@@ -134,7 +134,7 @@ btnContainer.addEventListener('click',  function (e) {
        }
        setupUI()
      }
-
+    // to left
      if (e.target.classList.contains('prev-btn')) {
        index--
        if(index < 0) {

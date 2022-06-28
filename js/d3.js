@@ -2,7 +2,7 @@
 
 
 
-
+ //  Immediately Invoked Function Expression IIFI :)
 ( async function data() {
     try {
       const res = await fetch('../JSON/data1.json')

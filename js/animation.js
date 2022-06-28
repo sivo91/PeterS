@@ -26,7 +26,6 @@
         })
 
     // TRENCIN CUP IMG
-
     const akCUP = document.getElementById('animation-ak-cup')
    
 
