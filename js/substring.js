@@ -1,12 +1,11 @@
 
+
 const br = '<br>'
 
 
  /*  trying other way  next paragr */
 let p2 = document.querySelector('.p2')
 let text2 = `
-Retirement from sport found me in the USA where I successfully completed my twenty-plus years international career and now , I am preparing for the next chapter in my life in Information Technology.
-${br}${br}
 I graduated from Solano Community College in Web Development and Design. Also, I am currently a student in Santa Rosa Junior College where I am finishing Full-Stack Development Certificate and I am shceduled to graduate in the fall 2022. I divide my time among school, family life and a part time job. 
 ${br}${br}
 My goal is to remain productive member of our family and continue to achieve success in life, to become a leader and recognized expert in a new field. I admire computerized information technology because I believe it’s going to play even greater role in our life than it does now , beyond one wildest imagination.
@@ -15,7 +14,7 @@ The past twenty years had taught me how to succeed and shine in crowd, taught me
 `
 
 
-p2.innerHTML = text2.substring(0,532) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
+p2.innerHTML = text2.substring(0,323) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
 
 function paragr2() {
   const btn2 = document.getElementById('btn2')
@@ -26,13 +25,24 @@ function paragr2() {
     modal.style.left = '100px'
     modal.textContent = 'Open'
   } else {
-    p2.innerHTML = text2.substring(0,532) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
+    p2.innerHTML = text2.substring(0,323) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
     modal.style.left = '-200px'
     modal.textContent = 'Close'
     modal.style.transitionDelay = '0.4s'
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
