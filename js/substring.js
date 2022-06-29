@@ -15,7 +15,7 @@ The past twenty years had taught me how to succeed and shine in crowd, taught me
 `
 
 
-p2.innerHTML = text2.substring(0,288) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
+p2.innerHTML = text2.substring(0,532) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
 
 function paragr2() {
   const btn2 = document.getElementById('btn2')
@@ -26,7 +26,7 @@ function paragr2() {
     modal.style.left = '100px'
     modal.textContent = 'Open'
   } else {
-    p2.innerHTML = text2.substring(0,288) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
+    p2.innerHTML = text2.substring(0,532) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
     modal.style.left = '-200px'
     modal.textContent = 'Close'
     modal.style.transitionDelay = '0.4s'
