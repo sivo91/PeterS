@@ -125,30 +125,5 @@
       },
     ] 
 
- 
     export default  jersy 
 
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyAmrv5OLLP6-m8AFUD2yo80HRTTP-pphs0",
-    authDomain: "pagenew-jersy.firebaseapp.com",
-    projectId: "pagenew-jersy",
-    storageBucket: "pagenew-jersy.appspot.com",
-    messagingSenderId: "1080189416156",
-    appId: "1:1080189416156:web:9eed41aaa5bf79b9e6fa19",
-    measurementId: "G-T0SX86E38F"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>

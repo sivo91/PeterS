@@ -2,8 +2,8 @@
   
   import  jersy from "./jersy.js"
   import datastats from './datastats.js'
- 
 
+ 
  /* toggle */
 
  function toggleClass() {
@@ -49,7 +49,7 @@ const initApp = async () => {
  pages = paginate(jersy)
  setupUI()
  resizing()
-
+ 
  //console.log(screen.width)
 }
 
@@ -206,7 +206,6 @@ function toolTip(){
 
  //MUSI BYT POD INIT FUNCTION 
 window.addEventListener('load', initApp)
-
 
 
 

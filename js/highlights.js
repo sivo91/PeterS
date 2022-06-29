@@ -2,7 +2,7 @@
 
 const box = document.querySelector('.videosBox')
 
-const data = [
+const videoData = [
   {
     src: 'https://www.youtube.com/embed/ZNVmYo6nnZ0'
   },
@@ -26,7 +26,7 @@ const data = [
   }
 ]
 
-const output = data.map(video => {
+const output = videoData.map(video => {
   return `
     <iframe width="330" height="180" src="${video.src}" title="YouTube video player"
           frameborder="0"
