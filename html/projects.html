@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/navCustom.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,62 +19,60 @@
 
 <body>
 <header>
+  <nav class="navbar">
+    <a href="../html/intro.html" class="brandlogo text-dark">Peter Sivak</a>
 
-
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container p-2">
+    <ul class="nav-menu">
       <li class="nav-item">
-        <a class="nav-link fs-3" href="../html/intro.html">Peter Sivak</a>
+        <a href="../html/about.html" class='nav-link '>About</a>
+      </li>
+      <li class="nav-item">
+        <a href="../html/prevCarrer.html" class='nav-link'>Prev Career</a>
       </li>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!--  MS-AUTO -->
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item drop">
+        <a href="#" class='nav-link'>Projects</a>
 
+        <ul class="dropDown">
           <li class="nav-item">
-            <a class="nav-link fs-3" href="../html/about.html">About</a>
+            <a href="../projects/wordpress.html" class='nav-link '>WordPress</a>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link fs-3" href="../html/prevCarrer.html">Previous Career</a>
+            <a href="./projects/web.html" class='nav-link'>JS Projects</a>
           </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fs-3" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Projects
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item fs-4" href="../projects/wordpress.html">WordPress</a></li>
-
-              <li><a class="dropdown-item fs-4" href="../projects/web.html">JS projects</a></a></li>
-
-              <li><a class="dropdown-item fs-4" href="../projects/react.html">React projects</a></a></li>
-
-              <li><a class="dropdown-item fs-4" href="../projects/game2d.html">2d games</a></a></li>
-
-              <li><a class="dropdown-item fs-4" href="../projects/game3d.html">3d Projects</a></li>
-
-              <li><a class="dropdown-item fs-4" href="../projects/adobe.html">Adobe Creative Suite</a></li>
-
-            </ul>
-          </li>
-
           <li class="nav-item">
-            <a class="nav-link fs-3" href="../html/contact.html">Contact</a>
+            <a href="../projects/react.html" class='nav-link'>React</a>
+          </li>
+          <li class="nav-item">
+            <a href="../projects/game2d.html" class='nav-link'>Phaser3</a>
+          </li>
+          <li class="nav-item">
+            <a href="../projects/adobe.html" class='nav-link'>Adobe Creative Suite</a>
           </li>
         </ul>
 
-      </div>
+      </li>
+
+      <li class="nav-item">
+        <a href="../html/contact.html" class='nav-link'>Contact</a>
+      </li>
+    </ul>
+
+    <!--  <div class="social-icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+      </div> -->
+
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </div>
   </nav>
 </header>
 
   <script src="../js/app.js"></script>
+  <script src="../js/navCustom.js"></script>
 </body>
 </html>
