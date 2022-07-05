@@ -252,3 +252,21 @@ li>a {
 
 
 }
+
+
+
+
+
+.views {
+  color: white;
+  margin: 40px;
+}
+
+.views:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.eye:hover {
+  color: blue;
+}
