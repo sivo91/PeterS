@@ -137,6 +137,13 @@ li>a {
   display: block;
 }
 
+.drop:hover>.dropDown li:nth-child(5) {
+  animation: slideL .6s ease-in-out forwards;
+  animation-delay: 650ms;
+  opacity: 0;
+  display: block;
+}
+
 @keyframes slideL {
   from {
     opacity: 0;
