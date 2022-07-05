@@ -21,14 +21,7 @@ main {
   width: 100%;
 }
 
-li.nav-item {
-  list-style: none;
-  font-family: 'Raleway', sans-serif;
-}
 
-.nav-link:hover {
-  color: rgb(0, 0, 0);
-}
 
 .title-h1, .title-h3,h2, h4 {
   font-family: 'Arbutus Slab', serif;
@@ -81,17 +74,6 @@ li.nav-item {
 .eye:hover {
   color: blue;
 }
-
-.toggle-title-page {
-  position: absolute;
-  left: 85%;
-  top: 30%;
-  font-size: 40px;
-  z-index: 50;
-  cursor: pointer;
-}
-
-
 
 
 
