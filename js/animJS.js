@@ -1,22 +1,2 @@
 
-
-const play1 = document.querySelector('.passing1');
-
-        const svgContainer1 = document.getElementById('svg1');
-        const animItem1 = bodymovin.loadAnimation({
-            wrapper: svgContainer1,
-            animType: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://assets10.lottiefiles.com/packages/lf20_vnikrcia.json'
-        });
-
-        play1.addEventListener('mouseover', () => {
-            svgContainer1.classList.remove('hide');
-            animItem.goToAndPlay(0,true);
-        })
-
-        animItem.addEventListener('complete', () => {
-            svgContainer1.classList.add('hide');
-            
-        })
+const _0x46db3c=_0x3668;function _0x3668(_0x6d0d35,_0x409497){const _0x495b3b=_0x495b();return _0x3668=function(_0x366803,_0x47bfc4){_0x366803=_0x366803-0x1b2;let _0x3521cc=_0x495b3b[_0x366803];return _0x3521cc;},_0x3668(_0x6d0d35,_0x409497);}(function(_0x133263,_0x596a62){const _0x32ac68=_0x3668,_0x3e679e=_0x133263();while(!![]){try{const _0x29163d=-parseInt(_0x32ac68(0x1b4))/0x1*(parseInt(_0x32ac68(0x1b6))/0x2)+-parseInt(_0x32ac68(0x1bf))/0x3+parseInt(_0x32ac68(0x1be))/0x4+parseInt(_0x32ac68(0x1b2))/0x5+-parseInt(_0x32ac68(0x1c0))/0x6+-parseInt(_0x32ac68(0x1c1))/0x7*(parseInt(_0x32ac68(0x1bd))/0x8)+parseInt(_0x32ac68(0x1b3))/0x9;if(_0x29163d===_0x596a62)break;else _0x3e679e['push'](_0x3e679e['shift']());}catch(_0x34fd06){_0x3e679e['push'](_0x3e679e['shift']());}}}(_0x495b,0x828b3));const play1=document[_0x46db3c(0x1ba)]('.passing1'),svgContainer1=document[_0x46db3c(0x1c2)](_0x46db3c(0x1c6)),animItem1=bodymovin[_0x46db3c(0x1b9)]({'wrapper':svgContainer1,'animType':'svg','loop':!![],'autoplay':!![],'path':_0x46db3c(0x1bb)});play1[_0x46db3c(0x1c5)](_0x46db3c(0x1b5),()=>{const _0x3e8b6d=_0x46db3c;svgContainer1['classList'][_0x3e8b6d(0x1c4)](_0x3e8b6d(0x1bc)),animItem['goToAndPlay'](0x0,!![]);}),animItem[_0x46db3c(0x1c5)](_0x46db3c(0x1b8),()=>{const _0x41a826=_0x46db3c;svgContainer1[_0x41a826(0x1c3)][_0x41a826(0x1b7)]('hide');});function _0x495b(){const _0x2187ac=['classList','remove','addEventListener','svg1','913770VWGnbl','21266235avHOgf','830411IoZZGN','mouseover','2sPPKXx','add','complete','loadAnimation','querySelector','https://assets10.lottiefiles.com/packages/lf20_vnikrcia.json','hide','4392008xaXkNV','2316564UZuBaO','575682zbSXSV','6112782hUgVvI','7pxnMlg','getElementById'];_0x495b=function(){return _0x2187ac;};return _0x495b();}

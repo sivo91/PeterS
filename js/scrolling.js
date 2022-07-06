@@ -1,25 +1,2 @@
-
-const main = document.querySelector('main')
-const progressBar = document.querySelector('.progress')
-
-
-function animProgressBar() {
-
-  let scrollDistance = -main.getBoundingClientRect().top
-  let progressWidth = (scrollDistance / 
-    ( main.getBoundingClientRect().height - document.documentElement.clientHeight )) * 100
-
-    let value = Math.floor(progressWidth)
-    console.log(value)
-
-   progressBar.style.width = value + '%'
-
-   if(value < 0) {
-     progressBar.style.width = '0%'
-   }
-}
-
-
-
-window.addEventListener('scroll', animProgressBar)
+const _0x5ad94e=_0x580d;(function(_0x573da5,_0x5f1612){const _0x22738a=_0x580d,_0x3037e1=_0x573da5();while(!![]){try{const _0x1c006a=-parseInt(_0x22738a(0xa1))/0x1+-parseInt(_0x22738a(0x8e))/0x2*(-parseInt(_0x22738a(0x97))/0x3)+-parseInt(_0x22738a(0x9e))/0x4*(-parseInt(_0x22738a(0x92))/0x5)+-parseInt(_0x22738a(0x90))/0x6+-parseInt(_0x22738a(0x96))/0x7*(parseInt(_0x22738a(0x95))/0x8)+parseInt(_0x22738a(0xa0))/0x9+parseInt(_0x22738a(0x9c))/0xa;if(_0x1c006a===_0x5f1612)break;else _0x3037e1['push'](_0x3037e1['shift']());}catch(_0x4b186e){_0x3037e1['push'](_0x3037e1['shift']());}}}(_0x37e6,0x1a6b8));function _0x580d(_0x18cabc,_0x2c1b35){const _0x37e652=_0x37e6();return _0x580d=function(_0x580da4,_0x4f362b){_0x580da4=_0x580da4-0x8b;let _0x46f723=_0x37e652[_0x580da4];return _0x46f723;},_0x580d(_0x18cabc,_0x2c1b35);}const main=document['querySelector']('main'),progressBar=document[_0x5ad94e(0x93)](_0x5ad94e(0x9b));function _0x37e6(){const _0x55478a=['4AHIlmR','log','1483974WfQSYN','75343CssxOT','addEventListener','top','clientHeight','22884FcVkjz','getBoundingClientRect','349632vIeppA','height','111695OoppYO','querySelector','style','714152qMOxKn','14igzUpM','18OGVgwW','floor','width','scroll','.progress','1644920ohZhPO','documentElement'];_0x37e6=function(){return _0x55478a;};return _0x37e6();}function animProgressBar(){const _0x3a7f32=_0x5ad94e;let _0x230ccc=-main[_0x3a7f32(0x8f)]()[_0x3a7f32(0x8c)],_0x2fb0e2=_0x230ccc/(main[_0x3a7f32(0x8f)]()[_0x3a7f32(0x91)]-document[_0x3a7f32(0x9d)][_0x3a7f32(0x8d)])*0x64,_0x32fb95=Math[_0x3a7f32(0x98)](_0x2fb0e2);console[_0x3a7f32(0x9f)](_0x32fb95),progressBar[_0x3a7f32(0x94)][_0x3a7f32(0x99)]=_0x32fb95+'%',_0x32fb95<0x0&&(progressBar[_0x3a7f32(0x94)][_0x3a7f32(0x99)]='0%');}window[_0x5ad94e(0x8b)](_0x5ad94e(0x9a),animProgressBar);
 

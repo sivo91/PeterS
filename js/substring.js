@@ -1,37 +1,4 @@
-
-
-const br = '<br>'
-
-
- /*  trying other way  next paragr */
-let p2 = document.querySelector('.p2')
-let text2 = `
-I graduated from Solano Community College in Web Development and Design. Also, I am currently a student in Santa Rosa Junior College where I am finishing Full-Stack Development Certificate and I am shceduled to graduate in the fall 2022. I divide my time among school, family life and a part time job. 
-${br}${br}
-My goal is to remain productive member of our family and continue to achieve success in life, to become a leader and recognized expert in a new field. I admire computerized information technology because I believe it’s going to play even greater role in our life than it does now , beyond one wildest imagination.
-${br}${br}
-The past twenty years had taught me how to succeed and shine in crowd, taught me resilience and discipline. I learned to fight for every moment and learned to keep winning momentum. My past career molded my hard working character and righteous personality. I am used to work under pressure and deliver consistent work in the least amount of time.
-`
-
-
-p2.innerHTML = text2.substring(0,323) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
-
-function paragr2() {
-  const btn2 = document.getElementById('btn2')
-  const modal = document.querySelector('.modal-box')
-
-  if(btn2.textContent === 'Read More'){
-    p2.innerHTML = text2.substring(0,10000) + ' <button onclick="paragr2()" id="btn2">Read Less</button>'
-    modal.style.left = '100px'
-    modal.textContent = 'Open'
-  } else {
-    p2.innerHTML = text2.substring(0,323) + ' ... ' + '<button onclick="paragr2()" id="btn2">Read More</button>'
-    modal.style.left = '-200px'
-    modal.textContent = 'Close'
-    modal.style.transitionDelay = '0.4s'
-
-  }
-}
+const _0x60b769=_0x26e8;(function(_0x39594f,_0x149e4d){const _0x73fc82=_0x26e8,_0x16c2a3=_0x39594f();while(!![]){try{const _0x4fcd8b=-parseInt(_0x73fc82(0x115))/0x1*(-parseInt(_0x73fc82(0x11b))/0x2)+-parseInt(_0x73fc82(0x117))/0x3+-parseInt(_0x73fc82(0x10f))/0x4*(parseInt(_0x73fc82(0x106))/0x5)+parseInt(_0x73fc82(0x111))/0x6*(parseInt(_0x73fc82(0x110))/0x7)+parseInt(_0x73fc82(0x118))/0x8+-parseInt(_0x73fc82(0x107))/0x9+-parseInt(_0x73fc82(0x104))/0xa;if(_0x4fcd8b===_0x149e4d)break;else _0x16c2a3['push'](_0x16c2a3['shift']());}catch(_0x9197ae){_0x16c2a3['push'](_0x16c2a3['shift']());}}}(_0x2cd9,0xedf1c));function _0x26e8(_0xa1f763,_0x12d782){const _0x2cd92b=_0x2cd9();return _0x26e8=function(_0x26e855,_0x25864e){_0x26e855=_0x26e855-0x102;let _0x55af32=_0x2cd92b[_0x26e855];return _0x55af32;},_0x26e8(_0xa1f763,_0x12d782);}const br=_0x60b769(0x113);function _0x2cd9(){const _0x119ff0=['2435fzsCCK','6745284bqWSLJ','\x20<button\x20onclick=\x22paragr2()\x22\x20id=\x22btn2\x22>Read\x20Less</button>','\x0aI\x20graduated\x20from\x20Solano\x20Community\x20College\x20in\x20Web\x20Development\x20and\x20Design.\x20Also,\x20I\x20am\x20currently\x20a\x20student\x20in\x20Santa\x20Rosa\x20Junior\x20College\x20where\x20I\x20am\x20finishing\x20Full-Stack\x20Development\x20Certificate\x20and\x20I\x20am\x20shceduled\x20to\x20graduate\x20in\x20the\x20fall\x202022.\x20I\x20divide\x20my\x20time\x20among\x20school,\x20family\x20life\x20and\x20a\x20part\x20time\x20job.\x20\x0a','substring','.p2','Read\x20More','.modal-box','querySelector','8372MJCKvn','91qrosRV','876780DYhPij','style','<br>','\x20...\x20','117pYkYiD','getElementById','1780053ZNSiTC','4257688coXwqn','\x0aMy\x20goal\x20is\x20to\x20remain\x20productive\x20member\x20of\x20our\x20family\x20and\x20continue\x20to\x20achieve\x20success\x20in\x20life,\x20to\x20become\x20a\x20leader\x20and\x20recognized\x20expert\x20in\x20a\x20new\x20field.\x20I\x20admire\x20computerized\x20information\x20technology\x20because\x20I\x20believe\x20it’s\x20going\x20to\x20play\x20even\x20greater\x20role\x20in\x20our\x20life\x20than\x20it\x20does\x20now\x20,\x20beyond\x20one\x20wildest\x20imagination.\x0a','left','33042FjRBvb','innerHTML','Open','transitionDelay','textContent','100px','10281200WXZmXk','<button\x20onclick=\x22paragr2()\x22\x20id=\x22btn2\x22>Read\x20More</button>'];_0x2cd9=function(){return _0x119ff0;};return _0x2cd9();}let p2=document[_0x60b769(0x10e)](_0x60b769(0x10b)),text2=_0x60b769(0x109)+br+br+_0x60b769(0x119)+br+br+'\x0aThe\x20past\x20twenty\x20years\x20had\x20taught\x20me\x20how\x20to\x20succeed\x20and\x20shine\x20in\x20crowd,\x20taught\x20me\x20resilience\x20and\x20discipline.\x20I\x20learned\x20to\x20fight\x20for\x20every\x20moment\x20and\x20learned\x20to\x20keep\x20winning\x20momentum.\x20My\x20past\x20career\x20molded\x20my\x20hard\x20working\x20character\x20and\x20righteous\x20personality.\x20I\x20am\x20used\x20to\x20work\x20under\x20pressure\x20and\x20deliver\x20consistent\x20work\x20in\x20the\x20least\x20amount\x20of\x20time.\x0a';p2[_0x60b769(0x11c)]=text2[_0x60b769(0x10a)](0x0,0x143)+_0x60b769(0x114)+_0x60b769(0x105);function paragr2(){const _0x60de47=_0x60b769,_0x5e86f8=document[_0x60de47(0x116)]('btn2'),_0x3494e3=document['querySelector'](_0x60de47(0x10d));_0x5e86f8['textContent']===_0x60de47(0x10c)?(p2[_0x60de47(0x11c)]=text2[_0x60de47(0x10a)](0x0,0x2710)+_0x60de47(0x108),_0x3494e3[_0x60de47(0x112)][_0x60de47(0x11a)]=_0x60de47(0x103),_0x3494e3[_0x60de47(0x102)]=_0x60de47(0x11d)):(p2[_0x60de47(0x11c)]=text2[_0x60de47(0x10a)](0x0,0x143)+'\x20...\x20'+_0x60de47(0x105),_0x3494e3[_0x60de47(0x112)][_0x60de47(0x11a)]='-200px',_0x3494e3['textContent']='Close',_0x3494e3['style'][_0x60de47(0x11e)]='0.4s');}
 
 
 
