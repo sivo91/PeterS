@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../css/contact.css">
   <meta charset="UTF-8">
   <script src="../js/navCSS.js"></script>
+  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -81,56 +82,76 @@
 
   <main>
 
-        <div class="contact-content">
-          <h2 class="mt-4">Do you have a question?</h2>
-          <h3>Contact me !</h3>
-
-          <div class="box">
-
-            <!--   POST CARD -->
-              <div class="mail">
-                <div class="svg hide" id="svg"></div>
-              </div>
-
-                  <!--  CONTACT FORM -->
-              <form method="POST" action="https://formspree.io/f/xrgjzvwy">
-
-                  <p>
-                    <!--  name -->
-                    <label for="first-name">First Name: </label>
-                    <input type="text" name="first-name" id="first-name" placeholder="first name" required><br>
-              
-                    <label for="last-name">Last Name: </label>
-                    <input type="text" name="last-name" id="last-name" placeholder="last name" required>
-                  </p>
-              
-                  <p>
-                    <!--  phone -->
-                    <label for="phone1">Phone: </label>
-                    <input type="tel" name="phone1" id="phone1" placeholder="optional"><br>
-              
-                    <!--  email -->
-                    <label for="email1">Email: </label>
-                    <input type="email" name="email1" id="email1" placeholder="email" required>
-                  </p>
-              
-                  <p>
-                    <!-- text -->
-                    <label for="message">Comment</label><br>
-                    <textarea name="message" id="message" cols="27" rows="4" placeholder=" text area"></textarea>
-                  </p>
-              
-                  <!-- submit -->
-                  <button type="submit" class="btn btn-outline-primary m-2">Send Message</button>
+    <div class="contact-title">
+      <h2 class="pt-4 ha2">Do you have a question?</h2>
+      <h3 class="ha3">Contact me !</h3>
+    </div>
 
 
-              </form>
+    <div class="contact-boxes">
+      <div class="row contact-icons">
+        <div class="col-8 col-md-3 text-center contact-box box1">
+          <i class="fa-solid fa-location-dot location"></i>
+          <h6 class="pb-3">Fairfield,CA</h6>
+        </div>
+        <div class="col-8 col-md-3 text-center contact-box box2">
+          <i class="fa-solid fa-envelope email-icon"></i>
+          <h6 class="pb-3"><a href="mailto: p.sivak91@gmail.com" class="send-email">Send Email</a></h6>
+        </div>
+        <div class="col-8 col-md-3 text-center contact-box box3">
+          <i class="fa-solid fa-phone fone"></i>
+          <h6 class="pb-3"><a href="tel:707-770-6743" class="call-link">707-770-6743</a></h6>
+        </div>
+      </div>
+    </div>
 
-          </div>
-      </main><br>
+
+    <form method="POST" action="https://formspree.io/f/xrgjzvwy">
+
+     <!--  name -->
+      <div class="row  my-2">
+        <div class="col-10 col-md-6">
+          <input type="text" class="form-control" name="first name" id="first name" placeholder="First name" aria-label="First name" required>
+        </div>
+        <div class="col-10 col-md-6">
+          <input type="text" class="form-control" name="last name" id="last name" placeholder="Last name" aria-label="Last Name" required>
+        </div>
+      </div>
+
+      <!-- email phone -->
+      <div class="row  my-2">
+        <div class="col-10 col-md-6">
+          <input type="text" class="form-control" name="email" id="email" placeholder="Email" aria-label="Email" required>
+        </div>
+        <div class="col-10 col-md-6">
+          <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" aria-label="Phone">
+        </div>
+      </div>
+
+      <div class="col-10 col-md-12">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+      </div>
+
+   
+    
+    <!-- submit -->
+    <button type="submit" class="btn btn-outline-secondary m-2 contact-btn">Send Message</button>
+
+    </form>
+    
+      
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100307.6903978437!2d-122.10832339618327!3d38.21882665910854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808583a3a688d7b5%3A0x8c891b8457461fa9!2sSan%20Francisco%20Bay%20Area%2C%20CA!5e0!3m2!1sen!2sus!4v1657172525163!5m2!1sen!2sus"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+   </main><br>
       
      
-    </div>
+   
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -140,7 +161,7 @@
       integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/925a89708e.js" crossorigin="anonymous"></script>
 
 
  <script src="../js/mail.js"></script>
