@@ -58,7 +58,7 @@ main {
   padding: 10px;
 }
 
-.call-link, .send-email {
+.call-link, .send-email, .fairfield {
   color: black;
   text-decoration: none;
 }
