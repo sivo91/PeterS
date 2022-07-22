@@ -1,18 +1,26 @@
 
 [
+  {
+    "title": "Numbers",
+    "describe": "array[i].length % 2",
+    "url": "https://playing-with-arrays.peter119.repl.co/", 
+    "id": 15,
+    "img": "../JSprojectImgs/pro20.png",
+    "icon" : "<i class='bi bi-braces'>"
+  },
    {
-    "title": "Data Modeling",
-    "describe": "array[i].length",
+    "title": "String",
+    "describe": "obj[text[i]] += 1",
     "url": "https://data-modeling.peter119.repl.co/", 
-    "id":14,
-    "img": "../JSprojectImgs/prodata.jpg",
+    "id": 14,
+    "img": "../JSprojectImgs/prodata.png",
     "icon" : "<i class='bi bi-graph-up-arrow'>"
   },
   {
     "title": "Final Project / SRJC",
     "describe": "*Web Development I",
     "url": "https://webdevelopment-1.peter119.repl.co/index.html", 
-    "id":1,
+    "id": 1,
     "img": "../JSprojectImgs/ocko.png",
     "icon" : "<i class='fas fa-graduation-cap'>"
   },
