@@ -13,7 +13,7 @@
     "describe": "obj[text[i]] += 1",
     "url": "https://data-modeling.peter119.repl.co/", 
     "id": 14,
-    "img": "../JSprojectImgs/prodata.png",
+    "img": "../JSprojectImgs/proData.png",
     "icon" : "<i class='bi bi-graph-up-arrow'>"
   },
   {
