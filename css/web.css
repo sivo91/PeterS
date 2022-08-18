@@ -83,37 +83,7 @@ main {
   width: 205px;
 }
 
-@media only screen and (max-width: 768px) {
 
-  
-
-  .project-content  {
-    position: relative;
-    margin-top: 30px;
-    width: 100%!important;
-  }
-
-  .ul {
-    position: relative;
-    width: 95%!important;
-    left: 2.5%;
-    padding: 0;
-    transform: scale(0.8);
-  }
-
-  .red {
-    color: red;
-  }
- 
-  .schovaj-pre-fon {
-    display: none;
-  }
-
-  /* touch & drag event  */
-  .Color-Detect {
-    display: none;
-  }
-}
 
 
 .adobeImg {
@@ -200,15 +170,52 @@ main {
   color: white;
 }
 
+.wordpress-icon {
+  position: relative;
+  font-size: 65px;
+  align-items: center;
+  justify-content: center;
+  left: 47.8%;
+}
 
 
+@media only screen and (max-width: 768px) {
 
+  .project-content {
+    position: relative;
+    margin-top: 30px;
+    width: 100% !important;
+  }
 
+  .ul {
+    position: relative;
+    width: 95% !important;
+    left: 2.5%;
+    padding: 0;
+    transform: scale(0.8);
+  }
 
+  .red {
+    color: red;
+  }
 
+  .schovaj-pre-fon {
+    display: none;
+  }
 
+  /* touch & drag event  */
+  .Color-Detect {
+    display: none;
+  }
 
-
+  .wordpress-icon {
+    position: relative;
+    font-size: 65px;
+    align-items: center;
+    justify-content: center;
+    left: 43%;
+  }
+}
 
 
 
