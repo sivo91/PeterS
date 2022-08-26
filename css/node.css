@@ -1,0 +1,11 @@
+
+
+.node-projects {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  background-color: rgb(230, 238, 238);
+  padding: 10px 7px;
+  display: flex;
+  flex-wrap: wrap;
+}
