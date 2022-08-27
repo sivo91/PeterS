@@ -1,6 +1,14 @@
 
 [
   {
+    "title": "Hockey Team",
+    "describe": "Prototype Method",
+    "url": "https://hockey-team-prototype.peter119.repl.co/", 
+    "id": 16,
+    "img": "../JSprojectImgs/hockey.jpg",
+    "icon" : "<i class='bi bi-app'>"
+  },
+  {
     "title": "Numbers",
     "describe": "array[i].length % 2",
     "url": "https://playing-with-arrays.peter119.repl.co/", 
