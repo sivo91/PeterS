@@ -8,6 +8,9 @@
   --red: red;
   --orange: orange;
   --yellow: yellow;
+  --darkGray: #9aa0a1;
+  --mediumGr: #e8e8e8;
+  --lightGr: #f5f6f7;
 }
 
 
@@ -122,9 +125,9 @@ main {
 .project-card:hover {
   transform: translate(-20px, 20px);
   
-    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--purple),
-      20px -20px 0 -3px var(--background), 20px -20px var(--blue),
-      30px -30px 0 -3px var(--background), 30px -30px var(--purple)
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--mediumGr),
+      20px -20px 0 -3px var(--background), 20px -20px var(--lightGr)/* ,
+      30px -30px 0 -3px var(--background), 30px -30px var(--lightGr) */
       
 }
 

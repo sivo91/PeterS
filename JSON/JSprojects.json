@@ -1,6 +1,14 @@
 
 [
   {
+    "title": "E-commerce",
+    "describe": "JS Array Methods",
+    "url": "https://sivo91.github.io/Shopping-Cart-JS-onclick//", 
+    "id": 16,
+    "img": "../JSprojectImgs/ecommerce.jpg",
+    "icon" : "<i class='bi bi-cart3'>"
+  },
+  {
     "title": "Hockey Team",
     "describe": "Prototype methods",
     "url": "https://hockey-team-prototype.peter119.repl.co/", 
