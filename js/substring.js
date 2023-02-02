@@ -6,7 +6,7 @@ const br = '<br>'
  /*  trying other way  next paragr */
 let p2 = document.querySelector('.p2')
 let text2 = `
-I graduated from Solano Community College in Web Development and Design. Also, I graduated from Santa Rosa Junior College where I finished Web Full-Stack Developer AA. I divide my time among school, family life and a part time job. 
+I graduated from Solano Community College in Web Development and Design. Also, I graduated from Santa Rosa Junior College where I finished Web Full-Stack Developer AS. I divide my time among school, family life and a part time job. 
 ${br}${br}
 My goal is to remain productive member of our family and continue to achieve success in life, to become a leader and recognized expert in a new field. I admire computerized information technology because I believe it’s going to play even greater role in our life than it does now , beyond one wildest imagination.
 ${br}${br}
